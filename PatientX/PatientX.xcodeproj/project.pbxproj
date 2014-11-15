@@ -15,6 +15,7 @@
 		1FF58DA21A17175B00FD13AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF58DA11A17175B00FD13AC /* Images.xcassets */; };
 		1FF58DA51A17175B00FD13AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF58DA31A17175B00FD13AC /* LaunchScreen.xib */; };
 		1FF58DB11A17175B00FD13AC /* PatientXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF58DB01A17175B00FD13AC /* PatientXTests.m */; };
+		1FF58DBC1A171AF700FD13AC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF58DBB1A171AF600FD13AC /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		1FF58DAA1A17175B00FD13AC /* PatientXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF58DAF1A17175B00FD13AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FF58DB01A17175B00FD13AC /* PatientXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatientXTests.m; sourceTree = "<group>"; };
+		1FF58DBA1A171AF500FD13AC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1FF58DBB1A171AF600FD13AC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				1FF58D991A17175B00FD13AC /* FirstViewController.m */,
 				1FF58D9B1A17175B00FD13AC /* SecondViewController.h */,
 				1FF58D9C1A17175B00FD13AC /* SecondViewController.m */,
+				1FF58DBA1A171AF500FD13AC /* ThirdViewController.h */,
+				1FF58DBB1A171AF600FD13AC /* ThirdViewController.m */,
 				1FF58D9E1A17175B00FD13AC /* Main.storyboard */,
 				1FF58DA11A17175B00FD13AC /* Images.xcassets */,
 				1FF58DA31A17175B00FD13AC /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF58D9D1A17175B00FD13AC /* SecondViewController.m in Sources */,
+				1FF58DBC1A171AF700FD13AC /* ThirdViewController.m in Sources */,
 				1FF58D971A17175B00FD13AC /* AppDelegate.m in Sources */,
 				1FF58D9A1A17175B00FD13AC /* FirstViewController.m in Sources */,
 				1FF58D941A17175A00FD13AC /* main.m in Sources */,
