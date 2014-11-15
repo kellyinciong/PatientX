@@ -17,13 +17,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [Scroller setScrollEnabled:YES];
-    [Scroller setContentSize:(CGSizeMake(320, 1000))];
+    self.messages = @[@"Message 1", @"Message 2", @"Message 3", @"Message 4", @"Message 5"];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [self.messages count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *SimpleIdentifier = @"SimpleIdentifier";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SimpleIdentifier];
+    
+    if (cell == nil)
+    {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleIdentifier];
+    }
+    
+    cell.textLabel.text = self.messages[indexPath.row];
+    
+    return cell;
 }
 
 @end

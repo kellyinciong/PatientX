@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-{
-
-    IBOutlet UIScrollView *Scroller;
-}
+@interface SecondViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (copy, nonatomic) NSArray *messages;
 
 
 @end
