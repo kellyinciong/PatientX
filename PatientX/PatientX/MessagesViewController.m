@@ -1,23 +1,22 @@
 //
-//  ThirdViewController.m
+//  MessagesViewController.m
 //  PatientX
 //
 //  Created by Kelly Inciong on 11/14/14.
 //  Copyright (c) 2014 Team4. All rights reserved.
 //
 
-#import "ThirdViewController.h"
+#import "MessagesViewController.h"
 
-@interface ThirdViewController ()
+@interface MessagesViewController ()
 
 @end
 
-@implementation ThirdViewController
+@implementation MessagesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
 }
 
 - (void)didReceiveMemoryWarning {

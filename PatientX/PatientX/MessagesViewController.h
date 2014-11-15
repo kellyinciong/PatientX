@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  MessagesViewController.h
 //  PatientX
 //
 //  Created by Kelly Inciong on 11/14/14.
@@ -8,12 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-{
-
-    IBOutlet UIScrollView *Scroller;
-}
-
+@interface MessagesViewController : UIViewController
 
 @end
-
