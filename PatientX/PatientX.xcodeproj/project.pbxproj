@@ -15,6 +15,9 @@
 		1FF58DA21A17175B00FD13AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF58DA11A17175B00FD13AC /* Images.xcassets */; };
 		1FF58DA51A17175B00FD13AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF58DA31A17175B00FD13AC /* LaunchScreen.xib */; };
 		1FF58DB11A17175B00FD13AC /* PatientXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF58DB01A17175B00FD13AC /* PatientXTests.m */; };
+		1FF58DBC1A171AF700FD13AC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF58DBB1A171AF600FD13AC /* ThirdViewController.m */; };
+		F4FCCA981A171DA00042B5E0 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FCCA971A171DA00042B5E0 /* FourthViewController.m */; };
+		F4FCCA9B1A171DCB0042B5E0 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FCCA9A1A171DCB0042B5E0 /* FifthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,12 @@
 		1FF58DAA1A17175B00FD13AC /* PatientXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF58DAF1A17175B00FD13AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FF58DB01A17175B00FD13AC /* PatientXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatientXTests.m; sourceTree = "<group>"; };
+		1FF58DBA1A171AF500FD13AC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1FF58DBB1A171AF600FD13AC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F4FCCA961A171DA00042B5E0 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		F4FCCA971A171DA00042B5E0 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		F4FCCA991A171DCB0042B5E0 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		F4FCCA9A1A171DCB0042B5E0 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +94,18 @@
 			isa = PBXGroup;
 			children = (
 				1FF58D951A17175A00FD13AC /* AppDelegate.h */,
+				F4FCCA961A171DA00042B5E0 /* FourthViewController.h */,
+				F4FCCA971A171DA00042B5E0 /* FourthViewController.m */,
 				1FF58D961A17175B00FD13AC /* AppDelegate.m */,
 				1FF58D981A17175B00FD13AC /* FirstViewController.h */,
 				1FF58D991A17175B00FD13AC /* FirstViewController.m */,
 				1FF58D9B1A17175B00FD13AC /* SecondViewController.h */,
 				1FF58D9C1A17175B00FD13AC /* SecondViewController.m */,
+				1FF58DBA1A171AF500FD13AC /* ThirdViewController.h */,
+				1FF58DBB1A171AF600FD13AC /* ThirdViewController.m */,
 				1FF58D9E1A17175B00FD13AC /* Main.storyboard */,
+				F4FCCA991A171DCB0042B5E0 /* FifthViewController.h */,
+				F4FCCA9A1A171DCB0042B5E0 /* FifthViewController.m */,
 				1FF58DA11A17175B00FD13AC /* Images.xcassets */,
 				1FF58DA31A17175B00FD13AC /* LaunchScreen.xib */,
 				1FF58D911A17175A00FD13AC /* Supporting Files */,
@@ -224,9 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4FCCA981A171DA00042B5E0 /* FourthViewController.m in Sources */,
 				1FF58D9D1A17175B00FD13AC /* SecondViewController.m in Sources */,
+				1FF58DBC1A171AF700FD13AC /* ThirdViewController.m in Sources */,
 				1FF58D971A17175B00FD13AC /* AppDelegate.m in Sources */,
 				1FF58D9A1A17175B00FD13AC /* FirstViewController.m in Sources */,
+				F4FCCA9B1A171DCB0042B5E0 /* FifthViewController.m in Sources */,
 				1FF58D941A17175A00FD13AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +438,7 @@
 				1FF58DB61A17175B00FD13AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FF58DB71A17175B00FD13AC /* Build configuration list for PBXNativeTarget "PatientXTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +447,7 @@
 				1FF58DB91A17175B00FD13AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
