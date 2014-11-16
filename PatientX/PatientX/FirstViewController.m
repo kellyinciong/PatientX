@@ -72,18 +72,19 @@
     
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
     [Scroller setScrollEnabled:YES];
-    [Scroller setContentSize:(CGSizeMake(320, 1000))];
+    [Scroller setContentSize:(CGSizeMake(400, 2000))];
     
     NSFileManager *filemgr;
     filemgr = [NSFileManager defaultManager];
     
-    if ([filemgr fileExistsAtPath: @"/Users/Kevin/Documents/MedAppJam/MedAppJamFinal/textFiles/myfile.txt" ] == YES){
+    if ([filemgr fileExistsAtPath: @"/Users/KellyInciong/Desktop/myfile.txt" ] == YES){
         NSLog (@"File exists");
         
         
         
-        NSURL *URL = [NSURL fileURLWithPath:@"/Users/Kevin/Documents/MedAppJam/MedAppJamFinal/textFiles/myfile.txt"];
+        NSURL *URL = [NSURL fileURLWithPath:@"/Users/KellyInciong/Desktop/myfile.txt"];
         NSError *error;
         NSString *stringFromFileAtURL = [[NSString alloc]
                                          initWithContentsOfURL:URL
