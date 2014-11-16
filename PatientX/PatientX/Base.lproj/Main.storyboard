@@ -1432,11 +1432,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="374" height="687"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                </variation>
+                            </tableView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="iPU-wR-5th">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="687"/>
                                 </variation>
                                 <connections>
-                                    <outlet property="dataSource" destination="8rJ-Kc-sve" id="bye-jd-d7J"/>
-                                    <outlet property="delegate" destination="8rJ-Kc-sve" id="Kbm-Zr-vks"/>
+                                    <outlet property="dataSource" destination="8rJ-Kc-sve" id="B56-zi-hsU"/>
+                                    <outlet property="delegate" destination="8rJ-Kc-sve" id="Ofz-V9-jBJ"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -1447,6 +1454,7 @@
                                 <exclude reference="Iyj-SW-G7c"/>
                                 <exclude reference="dp4-d2-r6K"/>
                                 <exclude reference="6Gb-6U-u1Z"/>
+                                <exclude reference="iPU-wR-5th"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -1455,6 +1463,7 @@
                                 <include reference="Iyj-SW-G7c"/>
                                 <include reference="dp4-d2-r6K"/>
                                 <include reference="6Gb-6U-u1Z"/>
+                                <include reference="iPU-wR-5th"/>
                             </mask>
                         </variation>
                     </view>
@@ -1639,11 +1648,22 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="374" height="687"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                                 <connections>
                                     <outlet property="dataSource" destination="xsg-my-HaS" id="VqU-tt-DGn"/>
                                     <outlet property="delegate" destination="xsg-my-HaS" id="XhL-Rt-hXp"/>
+                                </connections>
+                            </tableView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="yQa-mU-zu6">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="687"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="xsg-my-HaS" id="6Xr-6Z-vbr"/>
+                                    <outlet property="delegate" destination="xsg-my-HaS" id="jAs-Vq-5jq"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -1652,12 +1672,14 @@
                             <mask key="subviews">
                                 <exclude reference="ydE-dJ-xBl"/>
                                 <exclude reference="uRW-TQ-mE4"/>
+                                <exclude reference="yQa-mU-zu6"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="ydE-dJ-xBl"/>
                                 <include reference="uRW-TQ-mE4"/>
+                                <include reference="yQa-mU-zu6"/>
                             </mask>
                         </variation>
                     </view>
@@ -1897,7 +1919,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="375" height="687"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                                 <connections>
                                     <outlet property="dataSource" destination="i3c-T9-Yft" id="7nj-yZ-qmW"/>

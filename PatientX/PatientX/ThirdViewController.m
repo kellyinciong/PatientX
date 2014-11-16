@@ -78,10 +78,10 @@
     
     filemgr = [NSFileManager defaultManager];
     
-    if ([filemgr fileExistsAtPath: @"/Users/KellyInciong/Desktop/myfile.txt" ] == YES){
+    if ([filemgr fileExistsAtPath: @"/Users/Kevin/Desktop/myfile.txt" ] == YES){
         NSLog (@"File exists");
       
-        NSURL *URL = [NSURL fileURLWithPath:@"/Users/KellyInciong/Desktop/myfile.txt"];
+        NSURL *URL = [NSURL fileURLWithPath:@"/Users/Kevin/Desktop/myfile.txt"];
         NSError *error;
         NSString *stringFromFileAtURL = [[NSString alloc]
                                          initWithContentsOfURL:URL
@@ -95,7 +95,7 @@
         }
         else{
             NSLog(@"%@",stringFromFileAtURL);
-            NSFileHandle *fileHandle = [NSFileHandle fileHandleForWritingAtPath:@"/Users/KellyInciong/Desktop/myfile.txt"];
+            NSFileHandle *fileHandle = [NSFileHandle fileHandleForWritingAtPath:@"/Users/Kevin/Desktop/myfile.txt"];
             // [fileHandle seekToEndOfFile];
             [fileHandle writeData:[[NSString stringWithFormat:@"%@,%@,%@,%@\n%@", newEntry.date, newEntry.weight,newEntry.bloodPressure, newEntry.insulin,stringFromFileAtURL] dataUsingEncoding:NSUTF8StringEncoding]];
             [fileHandle closeFile];

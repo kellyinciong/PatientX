@@ -80,12 +80,12 @@
     NSFileManager *filemgr;
     filemgr = [NSFileManager defaultManager];
     
-    if ([filemgr fileExistsAtPath: @"/Users/KellyInciong/Desktop/myfile.txt" ] == YES){
+    if ([filemgr fileExistsAtPath: @"/Users/Kevin/Desktop/myfile.txt" ] == YES){
         NSLog (@"File exists");
         
         
         
-        NSURL *URL = [NSURL fileURLWithPath:@"/Users/KellyInciong/Desktop/myfile.txt"];
+        NSURL *URL = [NSURL fileURLWithPath:@"/Users/Kevin/Desktop/myfile.txt"];
         NSError *error;
         NSString *stringFromFileAtURL = [[NSString alloc]
                                          initWithContentsOfURL:URL
