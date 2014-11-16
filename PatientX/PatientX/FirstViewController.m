@@ -9,6 +9,7 @@
 #import "FirstViewController.h"
 #import "Entries.h"
 #import "Patient.h"
+#import "DataClass.h"
 
 
 @interface FirstViewController ()
@@ -79,12 +80,12 @@
     NSFileManager *filemgr;
     filemgr = [NSFileManager defaultManager];
     
-    if ([filemgr fileExistsAtPath: @"/Users/KellyInciong/Desktop/myfile.txt" ] == YES){
+    if ([filemgr fileExistsAtPath: @"/Users/Kevin/Documents/MedAppJam/MedAppJamFinal/textFiles/myfile.txt" ] == YES){
         NSLog (@"File exists");
         
         
         
-        NSURL *URL = [NSURL fileURLWithPath:@"/Users/KellyInciong/Desktop/myfile.txt"];
+        NSURL *URL = [NSURL fileURLWithPath:@"/Users/Kevin/Documents/MedAppJam/MedAppJamFinal/textFiles/myfile.txt"];
         NSError *error;
         NSString *stringFromFileAtURL = [[NSString alloc]
                                          initWithContentsOfURL:URL
@@ -174,8 +175,10 @@
             [weight10 setText:dataArray[9][1]];
             [bp10 setText:dataArray[9][2]];
             [insulin10 setText:dataArray[9][3]];
-
             
+            DataClass *obj=[DataClass getInstance];
+            obj.str= @"I am Global variable";
+            obj.dataArray = dataArray;
         }
     }
     else
