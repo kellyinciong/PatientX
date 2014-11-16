@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DrPatientsViewController : UIViewController
+@interface DrPatientsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (copy, nonatomic) NSArray *patients;
 
 @end

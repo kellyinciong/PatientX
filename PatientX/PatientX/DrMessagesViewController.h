@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DrMessagesViewController : UIViewController
+@interface DrMessagesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (copy, nonatomic) NSArray *drmessages;
 
 @end
