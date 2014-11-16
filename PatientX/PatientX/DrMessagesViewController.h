@@ -1,5 +1,5 @@
 //
-//  DrPatientsViewController.h
+//  DrMessagesViewController.h
 //  PatientX
 //
 //  Created by Kelly Inciong on 11/16/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DrPatientsViewController : UIViewController
+@interface DrMessagesViewController : UIViewController
 
 @end

@@ -1,18 +1,18 @@
 //
-//  DrPatientsViewController.m
+//  DrMessagesViewController.m
 //  PatientX
 //
 //  Created by Kelly Inciong on 11/16/14.
 //  Copyright (c) 2014 Team4. All rights reserved.
 //
 
-#import "DrPatientsViewController.h"
+#import "DrMessagesViewController.h"
 
-@interface DrPatientsViewController ()
+@interface DrMessagesViewController ()
 
 @end
 
-@implementation DrPatientsViewController
+@implementation DrMessagesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
