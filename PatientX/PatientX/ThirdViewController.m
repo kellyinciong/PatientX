@@ -7,15 +7,23 @@
 //
 
 #import "ThirdViewController.h"
-
+#import "Doctor.h"
+#import "Patient.h"
+#import "Entries.h"
 @interface ThirdViewController ()
 
 @end
 
 @implementation ThirdViewController
-
+@synthesize saveButton;
+@synthesize weightField;
+@synthesize bpField;
+@synthesize insulinField;
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
     // Do any additional setup after loading the view.
 
 }
@@ -34,5 +42,82 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)showMessage
+{
+    
+    Patient *patient1 = [[Patient alloc]init];
+    patient1.firstName = @"Kevin";
+    patient1.lastName = @"Huynh";
+    
+    NSDate *currDate = [NSDate date];
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+    [dateFormatter setDateFormat:@"MM/dd/YY hh:mm:ss"];
+    NSString *dateString = [dateFormatter stringFromDate:currDate];
+    NSLog(@"%@",dateString);
+    
+
+    
+    Entries *newEntry = [[Entries alloc]init];
+    newEntry.date = dateString;
+    newEntry.weight = self.weightField.text;
+    newEntry.bloodPressure = self.bpField.text;
+    newEntry.insulin = self.insulinField.text;
+    
+    
+    
+    
+    
+    UIAlertView *helloWorldAlert = [[UIAlertView alloc]
+                                    initWithTitle:@"Display"
+                                    message: [NSString stringWithFormat:@"%@ %@\nEntry Time: %@ \n %@ lbs\n %@ \n %@", patient1.firstName,patient1.lastName, newEntry.date, newEntry.weight,newEntry.bloodPressure, newEntry.insulin]
+                                    delegate:nil cancelButtonTitle:@"OK"
+                                    otherButtonTitles:nil];
+    
+    NSFileManager *filemgr;
+    
+    filemgr = [NSFileManager defaultManager];
+    
+    if ([filemgr fileExistsAtPath: @"/Users/Kevin/Documents/MedAppJam/MedAppJamFinal/textFiles/myfile.txt" ] == YES){
+        NSLog (@"File exists");
+      
+        NSURL *URL = [NSURL fileURLWithPath:@"/Users/Kevin/Documents/MedAppJam/MedAppJamFinal/textFiles/myfile.txt"];
+        NSError *error;
+        NSString *stringFromFileAtURL = [[NSString alloc]
+                                         initWithContentsOfURL:URL
+                                         encoding:NSUTF8StringEncoding
+                                         error:&error];
+        if (stringFromFileAtURL == nil) {
+            // an error occurred
+            NSLog(@"Error reading file at %@\n%@",
+                  URL, [error localizedFailureReason]);
+            // implementation continues ...
+        }
+        else{
+            NSLog(@"%@",stringFromFileAtURL);
+            NSFileHandle *fileHandle = [NSFileHandle fileHandleForWritingAtPath:@"/Users/Kevin/Documents/MedAppJam/MedAppJamFinal/textFiles/myfile.txt"];
+            // [fileHandle seekToEndOfFile];
+            [fileHandle writeData:[[NSString stringWithFormat:@"%@,%@,%@,%@\n%@", newEntry.date, newEntry.weight,newEntry.bloodPressure, newEntry.insulin,stringFromFileAtURL] dataUsingEncoding:NSUTF8StringEncoding]];
+            [fileHandle closeFile];
+                [helloWorldAlert show];
+        }
+
+        
+    }
+    else
+        NSLog (@"File not found");
+    /*
+    NSString *str = [NSString stringWithFormat:@"%@,%@,%@,%@", newEntry.date, newEntry.weight,newEntry.bloodPressure, newEntry.insulin];
+    [str writeToFile:@"/Users/Kevin/Documents/MedAppJam/MedAppJamFinal/textFiles/myfile.txt" atomically:YES encoding:NSUTF8StringEncoding error:nil];
+    */
+    
+
+    
+    // Display the Hello World Message
+
+    
+    
+    
+}
 
 @end

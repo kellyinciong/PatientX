@@ -10,4 +10,9 @@
 
 @interface ThirdViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *saveButton;
+@property(strong,nonatomic) IBOutlet UITextField *weightField;
+@property(strong,nonatomic) IBOutlet UITextField *bpField;
+@property(strong,nonatomic) IBOutlet UITextField *insulinField;
+
 @end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A322DFC1A17EC4900A4E922 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A322DF81A17EC4900A4E922 /* Doctor.m */; };
+		0A322DFD1A17EC4900A4E922 /* Entries.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A322DFA1A17EC4900A4E922 /* Entries.m */; };
+		0A322E011A180B4100A4E922 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A322E001A180B4100A4E922 /* Patient.m */; };
 		1FF58D941A17175A00FD13AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF58D931A17175A00FD13AC /* main.m */; };
 		1FF58D971A17175B00FD13AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF58D961A17175B00FD13AC /* AppDelegate.m */; };
 		1FF58D9A1A17175B00FD13AC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF58D991A17175B00FD13AC /* FirstViewController.m */; };
@@ -33,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A322DF71A17EC4900A4E922 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		0A322DF81A17EC4900A4E922 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		0A322DF91A17EC4900A4E922 /* Entries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entries.h; sourceTree = "<group>"; };
+		0A322DFA1A17EC4900A4E922 /* Entries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entries.m; sourceTree = "<group>"; };
+		0A322DFB1A17EC4900A4E922 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		0A322E001A180B4100A4E922 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 		1FF58D8E1A17175A00FD13AC /* PatientX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF58D921A17175A00FD13AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FF58D931A17175A00FD13AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -113,11 +122,17 @@
 				1FF58DBB1A171AF600FD13AC /* ThirdViewController.m */,
 				F4FCCA991A171DCB0042B5E0 /* FifthViewController.h */,
 				F4FCCA9A1A171DCB0042B5E0 /* FifthViewController.m */,
-				1FF58D9E1A17175B00FD13AC /* Main.storyboard */,
 				1FF58DC01A17C24600FD13AC /* LoginViewController.h */,
 				1FF58DC11A17C24600FD13AC /* LoginViewController.m */,
 				1FF58DA11A17175B00FD13AC /* Images.xcassets */,
 				1FF58DA31A17175B00FD13AC /* LaunchScreen.xib */,
+				1FF58D9E1A17175B00FD13AC /* Main.storyboard */,
+				0A322DF71A17EC4900A4E922 /* Doctor.h */,
+				0A322DF81A17EC4900A4E922 /* Doctor.m */,
+				0A322DF91A17EC4900A4E922 /* Entries.h */,
+				0A322DFA1A17EC4900A4E922 /* Entries.m */,
+				0A322E001A180B4100A4E922 /* Patient.m */,
+				0A322DFB1A17EC4900A4E922 /* Patient.h */,
 				1FF58D911A17175A00FD13AC /* Supporting Files */,
 			);
 			path = PatientX;
@@ -254,10 +269,13 @@
 				1FF58D9D1A17175B00FD13AC /* SecondViewController.m in Sources */,
 				1FF58DBF1A172FCF00FD13AC /* MessagesViewController.m in Sources */,
 				1FF58DBC1A171AF700FD13AC /* ThirdViewController.m in Sources */,
+				0A322DFC1A17EC4900A4E922 /* Doctor.m in Sources */,
 				1FF58D971A17175B00FD13AC /* AppDelegate.m in Sources */,
 				1FF58DC21A17C24600FD13AC /* LoginViewController.m in Sources */,
 				1FF58D9A1A17175B00FD13AC /* FirstViewController.m in Sources */,
 				F4FCCA9B1A171DCB0042B5E0 /* FifthViewController.m in Sources */,
+				0A322E011A180B4100A4E922 /* Patient.m in Sources */,
+				0A322DFD1A17EC4900A4E922 /* Entries.m in Sources */,
 				1FF58D941A17175A00FD13AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
