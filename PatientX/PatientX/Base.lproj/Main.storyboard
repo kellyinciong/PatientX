@@ -1869,53 +1869,80 @@
                                     <rect key="frame" x="0.0" y="7" width="374" height="44"/>
                                 </variation>
                             </navigationBar>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nhv-k8-vQJ">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wdq-8j-fbB">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aE4-F1-pUe" customClass="TEABarChart">
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="plq-H9-XSW" customClass="TEABarChart">
                                         <rect key="frame" x="35" y="46" width="250" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="34" y="52" width="333" height="182"/>
+                                            <rect key="frame" x="39" y="39" width="323" height="131"/>
                                         </variation>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dRC-sc-kOL" customClass="TEABarChart">
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ezb-IG-mHF" customClass="TEABarChart">
                                         <rect key="frame" x="35" y="46" width="250" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="34" y="285" width="333" height="182"/>
+                                            <rect key="frame" x="0.0" y="-51" width="0.0" height="0.0"/>
                                         </variation>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qn8-4G-5SO" customClass="TEABarChart">
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iGU-Qg-THq" customClass="TEABarChart">
                                         <rect key="frame" x="35" y="46" width="250" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="34" y="771" width="333" height="182"/>
+                                            <rect key="frame" x="0.0" y="-51" width="0.0" height="0.0"/>
                                         </variation>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qbL-Hh-eVS" customClass="TEABarChart">
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tjs-ID-xqT" customClass="TEABarChart">
                                         <rect key="frame" x="35" y="46" width="250" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="34" y="532" width="333" height="182"/>
+                                            <rect key="frame" x="0.0" y="-51" width="0.0" height="0.0"/>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qDj-am-uGS" customClass="TEABarChart">
+                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="39" y="199" width="323" height="131"/>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xK9-nH-vWB" customClass="TEABarChart">
+                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="39" y="366" width="323" height="131"/>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gm9-ff-sCF" customClass="TEABarChart">
+                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="39" y="532" width="323" height="131"/>
                                         </variation>
                                     </view>
                                 </subviews>
                                 <variation key="default">
                                     <mask key="subviews">
-                                        <exclude reference="aE4-F1-pUe"/>
-                                        <exclude reference="dRC-sc-kOL"/>
-                                        <exclude reference="qn8-4G-5SO"/>
-                                        <exclude reference="qbL-Hh-eVS"/>
+                                        <exclude reference="plq-H9-XSW"/>
+                                        <exclude reference="ezb-IG-mHF"/>
+                                        <exclude reference="iGU-Qg-THq"/>
+                                        <exclude reference="tjs-ID-xqT"/>
+                                        <exclude reference="qDj-am-uGS"/>
+                                        <exclude reference="xK9-nH-vWB"/>
+                                        <exclude reference="gm9-ff-sCF"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="51" width="400" height="985"/>
+                                    <rect key="frame" x="0.0" y="51" width="400" height="896"/>
                                     <mask key="subviews">
-                                        <include reference="aE4-F1-pUe"/>
-                                        <include reference="dRC-sc-kOL"/>
-                                        <include reference="qn8-4G-5SO"/>
-                                        <include reference="qbL-Hh-eVS"/>
+                                        <include reference="plq-H9-XSW"/>
+                                        <include reference="ezb-IG-mHF"/>
+                                        <include reference="iGU-Qg-THq"/>
+                                        <include reference="tjs-ID-xqT"/>
+                                        <include reference="qDj-am-uGS"/>
+                                        <include reference="xK9-nH-vWB"/>
+                                        <include reference="gm9-ff-sCF"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -1924,13 +1951,13 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="6WY-dT-os8"/>
-                                <exclude reference="Nhv-k8-vQJ"/>
+                                <exclude reference="wdq-8j-fbB"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="6WY-dT-os8"/>
-                                <include reference="Nhv-k8-vQJ"/>
+                                <include reference="wdq-8j-fbB"/>
                             </mask>
                         </variation>
                     </view>
@@ -1938,11 +1965,11 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="400" height="800"/>
                     <connections>
-                        <outlet property="Scroller" destination="Nhv-k8-vQJ" id="zbf-uX-dSX"/>
-                        <outlet property="barChart" destination="aE4-F1-pUe" id="XTj-ef-2TF"/>
-                        <outlet property="barChart2" destination="qbL-Hh-eVS" id="RT1-C6-uTg"/>
-                        <outlet property="barChart3" destination="dRC-sc-kOL" id="jS9-08-uIN"/>
-                        <outlet property="barChart4" destination="qn8-4G-5SO" id="1ND-Lm-6GS"/>
+                        <outlet property="Scroller" destination="wdq-8j-fbB" id="9XX-mY-Kly"/>
+                        <outlet property="barChart" destination="plq-H9-XSW" id="2Co-HZ-ULs"/>
+                        <outlet property="barChart2" destination="qDj-am-uGS" id="MIw-gu-KDk"/>
+                        <outlet property="barChart3" destination="xK9-nH-vWB" id="qyG-v3-qdm"/>
+                        <outlet property="barChart4" destination="gm9-ff-sCF" id="ow0-EY-h3z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1d-JS-QS5" userLabel="First Responder" sceneMemberID="firstResponder"/>

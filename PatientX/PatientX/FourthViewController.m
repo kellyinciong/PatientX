@@ -23,7 +23,7 @@
     [super viewDidLoad];
     
     [Scroller setScrollEnabled:YES];
-    [Scroller setContentSize:(CGSizeMake(320, 1000))];
+    [Scroller setContentSize:(CGSizeMake(320, 1750))];
     
     DataClass *obj=[DataClass getInstance];
 
