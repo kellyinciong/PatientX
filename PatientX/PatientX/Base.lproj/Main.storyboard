@@ -1869,145 +1869,10 @@
                                     <rect key="frame" x="0.0" y="7" width="374" height="44"/>
                                 </variation>
                             </navigationBar>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MTa-Kq-ASr">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nhv-k8-vQJ">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7kd-iL-Ioe" customClass="TEABarChart">
-                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="-6" y="270" width="0.0" height="0.0"/>
-                                        </variation>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ipy-PT-A4C" customClass="TEABarChart">
-                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="-6" y="270" width="0.0" height="0.0"/>
-                                        </variation>
-                                    </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39i-L5-jP7">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="33" y="68" width="11" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PKU-oh-S6F" customClass="TEABarChart">
-                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="-6" y="270" width="0.0" height="0.0"/>
-                                        </variation>
-                                    </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yB6-fW-977">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="807" width="55" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9RA-oJ-dzp" customClass="TEABarChart">
-                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="-6" y="270" width="0.0" height="0.0"/>
-                                        </variation>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cfg-0G-rSy" customClass="TEABarChart">
-                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="33" y="850" width="318" height="164"/>
-                                        </variation>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ww-bh-Fdj" customClass="TEABarChart">
-                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="33" y="602" width="318" height="164"/>
-                                        </variation>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xd0-7g-0ek" customClass="TEABarChart">
-                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="33" y="363" width="318" height="164"/>
-                                        </variation>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ppw-fa-cfj" customClass="TEABarChart">
-                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="33" y="87" width="318" height="164"/>
-                                        </variation>
-                                    </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BP High:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYb-IE-v9d">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="308" width="68" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BP Low:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LyX-Lt-rrG">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="560" width="65" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08w-d9-BVQ">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="31" width="58" height="21"/>
-                                        </variation>
-                                    </label>
-                                </subviews>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="7kd-iL-Ioe"/>
-                                        <exclude reference="Ipy-PT-A4C"/>
-                                        <exclude reference="39i-L5-jP7"/>
-                                        <exclude reference="PKU-oh-S6F"/>
-                                        <exclude reference="yB6-fW-977"/>
-                                        <exclude reference="9RA-oJ-dzp"/>
-                                        <exclude reference="cfg-0G-rSy"/>
-                                        <exclude reference="4ww-bh-Fdj"/>
-                                        <exclude reference="xd0-7g-0ek"/>
-                                        <exclude reference="Ppw-fa-cfj"/>
-                                        <exclude reference="kYb-IE-v9d"/>
-                                        <exclude reference="LyX-Lt-rrG"/>
-                                        <exclude reference="08w-d9-BVQ"/>
-                                    </mask>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="-5" y="51" width="400" height="1028"/>
-                                    <mask key="subviews">
-                                        <include reference="7kd-iL-Ioe"/>
-                                        <include reference="Ipy-PT-A4C"/>
-                                        <include reference="39i-L5-jP7"/>
-                                        <include reference="PKU-oh-S6F"/>
-                                        <include reference="yB6-fW-977"/>
-                                        <include reference="9RA-oJ-dzp"/>
-                                        <include reference="cfg-0G-rSy"/>
-                                        <include reference="4ww-bh-Fdj"/>
-                                        <include reference="xd0-7g-0ek"/>
-                                        <include reference="Ppw-fa-cfj"/>
-                                        <include reference="kYb-IE-v9d"/>
-                                        <include reference="LyX-Lt-rrG"/>
-                                        <include reference="08w-d9-BVQ"/>
-                                    </mask>
+                                    <rect key="frame" x="0.0" y="51" width="400" height="985"/>
                                 </variation>
                             </scrollView>
                         </subviews>
@@ -2015,23 +1880,21 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="6WY-dT-os8"/>
-                                <exclude reference="MTa-Kq-ASr"/>
+                                <exclude reference="Nhv-k8-vQJ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="6WY-dT-os8"/>
-                                <include reference="MTa-Kq-ASr"/>
+                                <include reference="Nhv-k8-vQJ"/>
                             </mask>
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Graphs" id="qEp-Z7-MTK"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="800"/>
                     <connections>
-                        <outlet property="Scroller" destination="MTa-Kq-ASr" id="LEs-lr-jfI"/>
-                        <outlet property="barChart" destination="Ppw-fa-cfj" id="ePP-V7-TlJ"/>
-                        <outlet property="barChart2" destination="xd0-7g-0ek" id="G4H-fQ-rRG"/>
-                        <outlet property="barChart3" destination="4ww-bh-Fdj" id="qhi-7N-MdA"/>
-                        <outlet property="barChart4" destination="cfg-0G-rSy" id="Ui7-TC-DHq"/>
+                        <outlet property="Scroller" destination="Nhv-k8-vQJ" id="zbf-uX-dSX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1d-JS-QS5" userLabel="First Responder" sceneMemberID="firstResponder"/>
