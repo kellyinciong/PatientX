@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1BD91C1A192CAD00ECB25A /* NSDate+TEAExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BD9121A192CAD00ECB25A /* NSDate+TEAExtensions.m */; };
+		0A1BD91D1A192CAD00ECB25A /* TEABarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BD9141A192CAD00ECB25A /* TEABarChart.m */; };
+		0A1BD91E1A192CAD00ECB25A /* TEAClockChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BD9171A192CAD00ECB25A /* TEAClockChart.m */; };
+		0A1BD91F1A192CAD00ECB25A /* TEAContributionGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BD9191A192CAD00ECB25A /* TEAContributionGraph.m */; };
+		0A1BD9201A192CAD00ECB25A /* TEATimeRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BD91B1A192CAD00ECB25A /* TEATimeRange.m */; };
 		0A322DFC1A17EC4900A4E922 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A322DF81A17EC4900A4E922 /* Doctor.m */; };
 		0A322DFD1A17EC4900A4E922 /* Entries.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A322DFA1A17EC4900A4E922 /* Entries.m */; };
 		0A322E011A180B4100A4E922 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A322E001A180B4100A4E922 /* Patient.m */; };
@@ -36,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1BD9111A192CAD00ECB25A /* NSDate+TEAExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TEAExtensions.h"; sourceTree = "<group>"; };
+		0A1BD9121A192CAD00ECB25A /* NSDate+TEAExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TEAExtensions.m"; sourceTree = "<group>"; };
+		0A1BD9131A192CAD00ECB25A /* TEABarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEABarChart.h; sourceTree = "<group>"; };
+		0A1BD9141A192CAD00ECB25A /* TEABarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEABarChart.m; sourceTree = "<group>"; };
+		0A1BD9151A192CAD00ECB25A /* TEAChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEAChart.h; sourceTree = "<group>"; };
+		0A1BD9161A192CAD00ECB25A /* TEAClockChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEAClockChart.h; sourceTree = "<group>"; };
+		0A1BD9171A192CAD00ECB25A /* TEAClockChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEAClockChart.m; sourceTree = "<group>"; };
+		0A1BD9181A192CAD00ECB25A /* TEAContributionGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEAContributionGraph.h; sourceTree = "<group>"; };
+		0A1BD9191A192CAD00ECB25A /* TEAContributionGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEAContributionGraph.m; sourceTree = "<group>"; };
+		0A1BD91A1A192CAD00ECB25A /* TEATimeRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEATimeRange.h; sourceTree = "<group>"; };
+		0A1BD91B1A192CAD00ECB25A /* TEATimeRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEATimeRange.m; sourceTree = "<group>"; };
 		0A322DF71A17EC4900A4E922 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
 		0A322DF81A17EC4900A4E922 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
 		0A322DF91A17EC4900A4E922 /* Entries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entries.h; sourceTree = "<group>"; };
@@ -108,6 +124,17 @@
 		1FF58D901A17175A00FD13AC /* PatientX */ = {
 			isa = PBXGroup;
 			children = (
+				0A1BD9111A192CAD00ECB25A /* NSDate+TEAExtensions.h */,
+				0A1BD9121A192CAD00ECB25A /* NSDate+TEAExtensions.m */,
+				0A1BD9131A192CAD00ECB25A /* TEABarChart.h */,
+				0A1BD9141A192CAD00ECB25A /* TEABarChart.m */,
+				0A1BD9151A192CAD00ECB25A /* TEAChart.h */,
+				0A1BD9161A192CAD00ECB25A /* TEAClockChart.h */,
+				0A1BD9171A192CAD00ECB25A /* TEAClockChart.m */,
+				0A1BD9181A192CAD00ECB25A /* TEAContributionGraph.h */,
+				0A1BD9191A192CAD00ECB25A /* TEAContributionGraph.m */,
+				0A1BD91A1A192CAD00ECB25A /* TEATimeRange.h */,
+				0A1BD91B1A192CAD00ECB25A /* TEATimeRange.m */,
 				1FF58DBD1A172FCF00FD13AC /* MessagesViewController.h */,
 				1FF58DBE1A172FCF00FD13AC /* MessagesViewController.m */,
 				1FF58D951A17175A00FD13AC /* AppDelegate.h */,
@@ -268,9 +295,14 @@
 				F4FCCA981A171DA00042B5E0 /* FourthViewController.m in Sources */,
 				1FF58D9D1A17175B00FD13AC /* SecondViewController.m in Sources */,
 				1FF58DBF1A172FCF00FD13AC /* MessagesViewController.m in Sources */,
+				0A1BD9201A192CAD00ECB25A /* TEATimeRange.m in Sources */,
 				1FF58DBC1A171AF700FD13AC /* ThirdViewController.m in Sources */,
+				0A1BD91C1A192CAD00ECB25A /* NSDate+TEAExtensions.m in Sources */,
 				0A322DFC1A17EC4900A4E922 /* Doctor.m in Sources */,
+				0A1BD91D1A192CAD00ECB25A /* TEABarChart.m in Sources */,
 				1FF58D971A17175B00FD13AC /* AppDelegate.m in Sources */,
+				0A1BD91F1A192CAD00ECB25A /* TEAContributionGraph.m in Sources */,
+				0A1BD91E1A192CAD00ECB25A /* TEAClockChart.m in Sources */,
 				1FF58DC21A17C24600FD13AC /* LoginViewController.m in Sources */,
 				1FF58D9A1A17175B00FD13AC /* FirstViewController.m in Sources */,
 				F4FCCA9B1A171DCB0042B5E0 /* FifthViewController.m in Sources */,

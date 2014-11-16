@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TEAChart.h"
 
-@interface FourthViewController : UIViewController
+
+@interface FourthViewController : UIViewController <TEAContributionGraphDataSource>{
+    IBOutlet UIScrollView *Scroller;
+}
 
 @end

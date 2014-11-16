@@ -10,12 +10,22 @@
 
 @interface FourthViewController ()
 
+@property (weak, nonatomic) IBOutlet TEABarChart *barChart;
 @end
 
 @implementation FourthViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [Scroller setScrollEnabled:YES];
+    [Scroller setContentSize:(CGSizeMake(320, 1000))];
+    
+    // Line chart, the Storyboard way
+    self.barChart.data = @[@3, @1, @4, @1, @5, @9, @2, @6, @5, @3];
+    self.barChart.barSpacing = 10;
+    self.barChart.barColors = @[[UIColor orangeColor], [UIColor yellowColor], [UIColor greenColor], [UIColor blueColor]];
+
     // Do any additional setup after loading the view.
 }
 
@@ -23,6 +33,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation
