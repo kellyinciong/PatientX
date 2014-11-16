@@ -1031,7 +1031,7 @@
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A9k-6i-MCA">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="-17" y="-12" width="402" height="703"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                         </variation>
                                     </scrollView>
                                 </subviews>
