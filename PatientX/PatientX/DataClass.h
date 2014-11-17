@@ -12,10 +12,12 @@
 
     NSString *str;
     NSMutableArray *dataArray;
+    NSString *user;
 }
 
 @property(nonatomic,retain)NSString *str;
 @property(nonatomic,retain)NSMutableArray *dataArray;
+@property(nonatomic,retain)NSString *user;
 
 
 +(DataClass*)getInstance;

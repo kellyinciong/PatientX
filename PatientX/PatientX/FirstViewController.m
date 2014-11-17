@@ -18,6 +18,10 @@
 
 @implementation FirstViewController
 
+@synthesize name;
+@synthesize age;
+@synthesize location;
+
 //@synthesize textView1;
 @synthesize weight1;
 @synthesize bp1;
@@ -80,12 +84,22 @@
     NSFileManager *filemgr;
     filemgr = [NSFileManager defaultManager];
     
-    if ([filemgr fileExistsAtPath: @"/Users/Kevin/Desktop/myfile.txt" ] == YES){
+    DataClass *obj1=[DataClass getInstance];
+
+    
+    NSString* fileNameExt = [NSString stringWithFormat:@"/Users/Kevin/Desktop/PatientX/%@.txt", obj1.user];
+    
+    NSLog(@"THIS IS IT: %@", fileNameExt);
+    
+    //THIS IS THE PROFILE STUFF.
+    
+    NSFileManager *filemgr1;
+    filemgr1 = [NSFileManager defaultManager];
+    
+    if ([filemgr1 fileExistsAtPath: fileNameExt ] == YES){
         NSLog (@"File exists");
         
-        
-        
-        NSURL *URL = [NSURL fileURLWithPath:@"/Users/Kevin/Desktop/myfile.txt"];
+        NSURL *URL = [NSURL fileURLWithPath:fileNameExt];
         NSError *error;
         NSString *stringFromFileAtURL = [[NSString alloc]
                                          initWithContentsOfURL:URL
@@ -98,93 +112,137 @@
             // implementation continues ...
         }
         else{
-            NSMutableArray *dataArray= [[NSMutableArray alloc] initWithCapacity:10];
             NSLog(@"%@",stringFromFileAtURL);
             
-            NSArray *mainArray =[stringFromFileAtURL componentsSeparatedByString:@"\n"];
+            NSArray *profileArray =[stringFromFileAtURL componentsSeparatedByString:@"|"];
             
-            NSLog(@"This is the Array: %@",mainArray[1]);
-
-            for(int i = 0;i < 10;i = i + 1)
-            {
+            [name setText:profileArray[0]];
+            [age setText:profileArray[1]];
+            [location setText:profileArray[2]];
+            
+            NSLog(@"This is a test: %@", profileArray[0]);
+            
+            //START DATA READ
+            
+            if ([filemgr fileExistsAtPath: profileArray[3] ] == YES){
+                NSLog (@"File exists");
                 
-                 NSArray *tempArray =[mainArray[i] componentsSeparatedByString:@","];
-                 [dataArray addObject: tempArray];
+                
+                
+                NSURL *URL = [NSURL fileURLWithPath:profileArray[3]];
+                NSError *error;
+                NSString *stringFromFileAtURL = [[NSString alloc]
+                                                 initWithContentsOfURL:URL
+                                                 encoding:NSUTF8StringEncoding
+                                                 error:&error];
+                if (stringFromFileAtURL == nil) {
+                    // an error occurred
+                    NSLog(@"Error reading file at %@\n%@",
+                          URL, [error localizedFailureReason]);
+                    // implementation continues ...
+                }
+                else{
+                    NSMutableArray *dataArray= [[NSMutableArray alloc] initWithCapacity:10];
+                    NSLog(@"%@",stringFromFileAtURL);
+                    
+                    NSArray *mainArray =[stringFromFileAtURL componentsSeparatedByString:@"\n"];
+                    
+                    NSLog(@"This is the Array: %@",mainArray[1]);
+                    
+                    for(int i = 0;i < 10;i = i + 1)
+                    {
+                        
+                        NSArray *tempArray =[mainArray[i] componentsSeparatedByString:@","];
+                        [dataArray addObject: tempArray];
+                    }
+                    
+                    NSLog(@"This is a test: %@", dataArray[1][0]);
+                    
+                    
+                    NSArray *array = [stringFromFileAtURL componentsSeparatedByString:@","];
+                    
+                    
+                    Entries *newEntry = [[Entries alloc]init];
+                    newEntry.date = array[0];
+                    newEntry.weight = array[1];
+                    newEntry.bloodPressure = array[2];
+                    newEntry.insulin = array[3];
+                    
+                    [weight1 setText:newEntry.weight];
+                    [date1 setText:newEntry.date];
+                    [bp1 setText:newEntry.bloodPressure];
+                    [insulin1 setText:newEntry.insulin];
+                    
+                    
+                    [date2 setText:dataArray[1][0]];
+                    [weight2 setText:dataArray[1][1]];
+                    [bp2 setText:dataArray[1][2]];
+                    [insulin2 setText:dataArray[1][3]];
+                    
+                    
+                    [date3 setText:dataArray[2][0]];
+                    [weight3 setText:dataArray[2][1]];
+                    [bp3 setText:dataArray[2][2]];
+                    [insulin3 setText:dataArray[2][3]];
+                    
+                    [date4 setText:dataArray[3][0]];
+                    [weight4 setText:dataArray[3][1]];
+                    [bp4 setText:dataArray[3][2]];
+                    [insulin4 setText:dataArray[3][3]];
+                    
+                    [date5 setText:dataArray[4][0]];
+                    [weight5 setText:dataArray[4][1]];
+                    [bp5 setText:dataArray[4][2]];
+                    [insulin5 setText:dataArray[4][3]];
+                    
+                    [date6 setText:dataArray[5][0]];
+                    [weight6 setText:dataArray[5][1]];
+                    [bp6 setText:dataArray[5][2]];
+                    [insulin6 setText:dataArray[5][3]];
+                    
+                    [date7 setText:dataArray[6][0]];
+                    [weight7 setText:dataArray[6][1]];
+                    [bp7 setText:dataArray[6][2]];
+                    [insulin7 setText:dataArray[6][3]];
+                    
+                    [date8 setText:dataArray[7][0]];
+                    [weight8 setText:dataArray[7][1]];
+                    [bp8 setText:dataArray[7][2]];
+                    [insulin8 setText:dataArray[7][3]];
+                    
+                    [date9 setText:dataArray[8][0]];
+                    [weight9 setText:dataArray[8][1]];
+                    [bp9 setText:dataArray[8][2]];
+                    [insulin9 setText:dataArray[8][3]];
+                    
+                    [date10 setText:dataArray[9][0]];
+                    [weight10 setText:dataArray[9][1]];
+                    [bp10 setText:dataArray[9][2]];
+                    [insulin10 setText:dataArray[9][3]];
+                    
+                    DataClass *obj=[DataClass getInstance];
+                    obj.dataArray = dataArray;
+                    
+                    
+                }
             }
-            
-            NSLog(@"This is a test: %@", dataArray[1][0]);
-            
-            
-            NSArray *array = [stringFromFileAtURL componentsSeparatedByString:@","];
-            
-            
-             Entries *newEntry = [[Entries alloc]init];
-             newEntry.date = array[0];
-             newEntry.weight = array[1];
-             newEntry.bloodPressure = array[2];
-             newEntry.insulin = array[3];
-             
-            [weight1 setText:newEntry.weight];
-            [date1 setText:newEntry.date];
-            [bp1 setText:newEntry.bloodPressure];
-            [insulin1 setText:newEntry.insulin];
-            
-            
-            [date2 setText:dataArray[1][0]];
-            [weight2 setText:dataArray[1][1]];
-            [bp2 setText:dataArray[1][2]];
-            [insulin2 setText:dataArray[1][3]];
-            
-            
-            [date3 setText:dataArray[2][0]];
-            [weight3 setText:dataArray[2][1]];
-            [bp3 setText:dataArray[2][2]];
-            [insulin3 setText:dataArray[2][3]];
-            
-            [date4 setText:dataArray[3][0]];
-            [weight4 setText:dataArray[3][1]];
-            [bp4 setText:dataArray[3][2]];
-            [insulin4 setText:dataArray[3][3]];
+            else
+                NSLog (@"File not found");
+            //END DATA READ
 
-            [date5 setText:dataArray[4][0]];
-            [weight5 setText:dataArray[4][1]];
-            [bp5 setText:dataArray[4][2]];
-            [insulin5 setText:dataArray[4][3]];
-
-            [date6 setText:dataArray[5][0]];
-            [weight6 setText:dataArray[5][1]];
-            [bp6 setText:dataArray[5][2]];
-            [insulin6 setText:dataArray[5][3]];
             
-            [date7 setText:dataArray[6][0]];
-            [weight7 setText:dataArray[6][1]];
-            [bp7 setText:dataArray[6][2]];
-            [insulin7 setText:dataArray[6][3]];
             
-            [date8 setText:dataArray[7][0]];
-            [weight8 setText:dataArray[7][1]];
-            [bp8 setText:dataArray[7][2]];
-            [insulin8 setText:dataArray[7][3]];
-            
-            [date9 setText:dataArray[8][0]];
-            [weight9 setText:dataArray[8][1]];
-            [bp9 setText:dataArray[8][2]];
-            [insulin9 setText:dataArray[8][3]];
-            
-            [date10 setText:dataArray[9][0]];
-            [weight10 setText:dataArray[9][1]];
-            [bp10 setText:dataArray[9][2]];
-            [insulin10 setText:dataArray[9][3]];
-            
-            DataClass *obj=[DataClass getInstance];
-            obj.str= @"I am Global variable";
-            obj.dataArray = dataArray;
         }
     }
     else
         NSLog (@"File not found");
+    //END PROFILE STUFF
     
     
+    
+    
+    
+
 }
 
 - (void)didReceiveMemoryWarning {

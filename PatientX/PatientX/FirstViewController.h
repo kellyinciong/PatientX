@@ -12,6 +12,10 @@
     IBOutlet UIScrollView *Scroller;
 }
 //@property(weak,nonatomic) IBOutlet UITextView *textView1;
+@property (weak, nonatomic) IBOutlet UILabel *name;
+@property (weak, nonatomic) IBOutlet UILabel *age;
+@property (weak, nonatomic) IBOutlet UILabel *location;
+
 @property (weak, nonatomic) IBOutlet UILabel *weight1;
 @property (weak, nonatomic) IBOutlet UILabel *date1;
 @property (weak, nonatomic) IBOutlet UILabel *bp1;

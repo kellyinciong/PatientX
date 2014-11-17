@@ -7,15 +7,20 @@
 //
 
 #import "LoginViewController.h"
+#import "DataClass.h"
 
 @interface LoginViewController ()
 
 @end
 
 @implementation LoginViewController
+@synthesize PatientLogin;
+@synthesize UserField;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view.
 }
 
@@ -33,5 +38,14 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)patientLogin:(id)sender {
+    
+    NSLog(@"Hi");
+    NSLog(@"%@",self.UserField.text);
+    
+    DataClass *obj=[DataClass getInstance];
+    obj.user = self.UserField.text;
+    
+}
 
 @end

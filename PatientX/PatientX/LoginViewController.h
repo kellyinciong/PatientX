@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface LoginViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *PatientLogin;
+@property (weak, nonatomic) IBOutlet UITextField *UserField;
 
 @end

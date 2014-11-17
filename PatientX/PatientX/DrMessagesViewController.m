@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.drmessages = @[@"Message from Patient 1", @"Message from Patient 2", @"Message from Patient 3", @"Message from Patient 4", @"Message from Patient 5"];
+    self.drmessages = @[@"Message from Patient 1 FKDLSAJFKLDSAJFKLDS;AJKFLDJSAKFLJDSKLAFJKDLSA;FJKDLS;AJFKLD;SJFKLD;SAJFKLD;JSAKFL;DJSKAL;FJKDLS;A", @"Message from Patient 2", @"Message from Patient 3", @"Message from Patient 4", @"Message from Patient 5"];
 }
 
 - (void)didReceiveMemoryWarning {
