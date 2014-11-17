@@ -23,7 +23,7 @@
     [super viewDidLoad];
     
     [Scroller setScrollEnabled:YES];
-    [Scroller setContentSize:(CGSizeMake(320, 1750))];
+    [Scroller setContentSize:(CGSizeMake(320, 1100))];
     
     DataClass *obj=[DataClass getInstance];
 
@@ -48,21 +48,21 @@
     // Line chart, the Storyboard way
     self.barChart.data = weightArray;
     self.barChart.barSpacing = 10;
-    self.barChart.barColors = @[[UIColor orangeColor], [UIColor yellowColor], [UIColor greenColor], [UIColor blueColor]];
+    self.barChart.barColors = @[[UIColor greenColor]];
     
     self.barChart2.data = bpArrayHigh;
     self.barChart2.barSpacing = 10;
-    self.barChart2.barColors = @[[UIColor orangeColor], [UIColor yellowColor], [UIColor greenColor], [UIColor blueColor]];
+    self.barChart2.barColors = @[[UIColor orangeColor]];
     
     self.barChart4.data = bpArrayLow;
     self.barChart4.barSpacing = 10;
-    self.barChart4.barColors = @[[UIColor orangeColor], [UIColor yellowColor], [UIColor greenColor], [UIColor blueColor]];
+    self.barChart4.barColors = @[[UIColor yellowColor]];
     
     
     
     self.barChart3.data = insulinArray;
     self.barChart3.barSpacing = 10;
-    self.barChart3.barColors = @[[UIColor orangeColor], [UIColor yellowColor], [UIColor greenColor], [UIColor blueColor]];
+    self.barChart3.barColors = @[[UIColor blueColor]];
 
 
     // Do any additional setup after loading the view.

@@ -13,11 +13,13 @@
     NSString *str;
     NSMutableArray *dataArray;
     NSString *user;
+    NSString *pathToData;
 }
 
 @property(nonatomic,retain)NSString *str;
 @property(nonatomic,retain)NSMutableArray *dataArray;
 @property(nonatomic,retain)NSString *user;
+@property(nonatomic,retain)NSString *pathToData;
 
 
 +(DataClass*)getInstance;

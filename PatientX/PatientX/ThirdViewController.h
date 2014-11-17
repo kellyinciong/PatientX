@@ -14,5 +14,6 @@
 @property(strong,nonatomic) IBOutlet UITextField *weightField;
 @property(strong,nonatomic) IBOutlet UITextField *bpField;
 @property(strong,nonatomic) IBOutlet UITextField *insulinField;
+@property (weak, nonatomic) IBOutlet UILabel *dateDisplay;
 
 @end

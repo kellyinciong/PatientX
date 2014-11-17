@@ -86,10 +86,14 @@
     
     DataClass *obj1=[DataClass getInstance];
 
-    
+    /////////////////////////////////////////
+    // UPDATE THIS WITH YOUR PATH.
+    //
     NSString* fileNameExt = [NSString stringWithFormat:@"/Users/Kevin/Desktop/PatientX/%@.txt", obj1.user];
+    //
+    //
+    /////////////////////////////////////////
     
-    NSLog(@"THIS IS IT: %@", fileNameExt);
     
     //THIS IS THE PROFILE STUFF.
     
@@ -112,7 +116,6 @@
             // implementation continues ...
         }
         else{
-            NSLog(@"%@",stringFromFileAtURL);
             
             NSArray *profileArray =[stringFromFileAtURL componentsSeparatedByString:@"|"];
             
@@ -120,7 +123,7 @@
             [age setText:profileArray[1]];
             [location setText:profileArray[2]];
             
-            NSLog(@"This is a test: %@", profileArray[0]);
+            
             
             //START DATA READ
             
@@ -143,11 +146,9 @@
                 }
                 else{
                     NSMutableArray *dataArray= [[NSMutableArray alloc] initWithCapacity:10];
-                    NSLog(@"%@",stringFromFileAtURL);
-                    
                     NSArray *mainArray =[stringFromFileAtURL componentsSeparatedByString:@"\n"];
                     
-                    NSLog(@"This is the Array: %@",mainArray[1]);
+
                     
                     for(int i = 0;i < 10;i = i + 1)
                     {
@@ -156,7 +157,6 @@
                         [dataArray addObject: tempArray];
                     }
                     
-                    NSLog(@"This is a test: %@", dataArray[1][0]);
                     
                     
                     NSArray *array = [stringFromFileAtURL componentsSeparatedByString:@","];
@@ -222,6 +222,7 @@
                     
                     DataClass *obj=[DataClass getInstance];
                     obj.dataArray = dataArray;
+                    obj.pathToData = profileArray[3];
                     
                     
                 }

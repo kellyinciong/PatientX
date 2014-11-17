@@ -1309,13 +1309,22 @@
                                     <rect key="frame" x="0.0" y="20" width="374" height="44"/>
                                 </variation>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0z-id-Xqf">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="6" y="90" width="368" height="48"/>
+                                </variation>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rOc-GO-2R5">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="27"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="36" y="164" width="200" height="30"/>
+                                    <rect key="frame" x="36" y="198" width="200" height="30"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Pressure:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSE-6O-dKC">
@@ -1324,7 +1333,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="36" y="232" width="194" height="25"/>
+                                    <rect key="frame" x="36" y="266" width="194" height="25"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin Level:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkZ-WR-5hh">
@@ -1333,7 +1342,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="36" y="299" width="166" height="25"/>
+                                    <rect key="frame" x="36" y="333" width="166" height="25"/>
                                 </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EkP-hn-NVA">
@@ -1341,7 +1350,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="248" y="164" width="97" height="30"/>
+                                    <rect key="frame" x="248" y="198" width="97" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T1y-VO-RvC">
@@ -1349,7 +1358,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="248" y="230" width="97" height="30"/>
+                                    <rect key="frame" x="248" y="264" width="97" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GKR-Tb-6fk">
@@ -1357,48 +1366,40 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="248" y="297" width="97" height="30"/>
+                                    <rect key="frame" x="248" y="331" width="97" height="30"/>
                                 </variation>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0z-id-Xqf">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="37"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="90" width="368" height="48"/>
-                                </variation>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="jg4-JH-SaI"/>
+                                <exclude reference="F0z-id-Xqf"/>
                                 <exclude reference="rOc-GO-2R5"/>
                                 <exclude reference="sSE-6O-dKC"/>
                                 <exclude reference="bkZ-WR-5hh"/>
                                 <exclude reference="EkP-hn-NVA"/>
                                 <exclude reference="T1y-VO-RvC"/>
                                 <exclude reference="GKR-Tb-6fk"/>
-                                <exclude reference="F0z-id-Xqf"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="jg4-JH-SaI"/>
+                                <include reference="F0z-id-Xqf"/>
                                 <include reference="rOc-GO-2R5"/>
                                 <include reference="sSE-6O-dKC"/>
                                 <include reference="bkZ-WR-5hh"/>
                                 <include reference="EkP-hn-NVA"/>
                                 <include reference="T1y-VO-RvC"/>
                                 <include reference="GKR-Tb-6fk"/>
-                                <include reference="F0z-id-Xqf"/>
                             </mask>
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Add New" id="V1k-mb-5Cz"/>
                     <connections>
                         <outlet property="bpField" destination="T1y-VO-RvC" id="qws-tg-JF8"/>
+                        <outlet property="dateDisplay" destination="F0z-id-Xqf" id="QYs-Yh-etj"/>
                         <outlet property="insulinField" destination="GKR-Tb-6fk" id="znk-RC-vkS"/>
                         <outlet property="saveButton" destination="rqs-VR-1Qn" id="cDn-Rf-p51"/>
                         <outlet property="weightField" destination="EkP-hn-NVA" id="cic-df-Rgf"/>
@@ -2035,21 +2036,57 @@
                                         <rect key="frame" x="35" y="46" width="250" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="39" y="199" width="323" height="131"/>
+                                            <rect key="frame" x="39" y="210" width="323" height="131"/>
                                         </variation>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xK9-nH-vWB" customClass="TEABarChart">
                                         <rect key="frame" x="35" y="46" width="250" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="39" y="366" width="323" height="131"/>
+                                            <rect key="frame" x="39" y="382" width="323" height="131"/>
                                         </variation>
                                     </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nub-uZ-Tvx">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="10" width="58" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qa4-rg-TQn">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="186" width="55" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Pressure High:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0P-8u-EBt">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="357" width="163" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Pressure Low:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lox-uk-c0B">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="536" width="160" height="21"/>
+                                        </variation>
+                                    </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gm9-ff-sCF" customClass="TEABarChart">
                                         <rect key="frame" x="35" y="46" width="250" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="39" y="532" width="323" height="131"/>
+                                            <rect key="frame" x="39" y="558" width="323" height="131"/>
                                         </variation>
                                     </view>
                                 </subviews>
@@ -2061,6 +2098,10 @@
                                         <exclude reference="tjs-ID-xqT"/>
                                         <exclude reference="qDj-am-uGS"/>
                                         <exclude reference="xK9-nH-vWB"/>
+                                        <exclude reference="Nub-uZ-Tvx"/>
+                                        <exclude reference="Qa4-rg-TQn"/>
+                                        <exclude reference="X0P-8u-EBt"/>
+                                        <exclude reference="lox-uk-c0B"/>
                                         <exclude reference="gm9-ff-sCF"/>
                                     </mask>
                                 </variation>
@@ -2073,6 +2114,10 @@
                                         <include reference="tjs-ID-xqT"/>
                                         <include reference="qDj-am-uGS"/>
                                         <include reference="xK9-nH-vWB"/>
+                                        <include reference="Nub-uZ-Tvx"/>
+                                        <include reference="Qa4-rg-TQn"/>
+                                        <include reference="X0P-8u-EBt"/>
+                                        <include reference="lox-uk-c0B"/>
                                         <include reference="gm9-ff-sCF"/>
                                     </mask>
                                 </variation>
@@ -2097,10 +2142,10 @@
                     <size key="freeformSize" width="400" height="800"/>
                     <connections>
                         <outlet property="Scroller" destination="wdq-8j-fbB" id="9XX-mY-Kly"/>
-                        <outlet property="barChart" destination="plq-H9-XSW" id="2Co-HZ-ULs"/>
-                        <outlet property="barChart2" destination="qDj-am-uGS" id="MIw-gu-KDk"/>
-                        <outlet property="barChart3" destination="xK9-nH-vWB" id="qyG-v3-qdm"/>
-                        <outlet property="barChart4" destination="gm9-ff-sCF" id="ow0-EY-h3z"/>
+                        <outlet property="barChart" destination="plq-H9-XSW" id="lUe-CO-Nom"/>
+                        <outlet property="barChart2" destination="xK9-nH-vWB" id="cGn-A0-oWa"/>
+                        <outlet property="barChart3" destination="qDj-am-uGS" id="qQD-KO-vEk"/>
+                        <outlet property="barChart4" destination="gm9-ff-sCF" id="QEx-9H-xOm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1d-JS-QS5" userLabel="First Responder" sceneMemberID="firstResponder"/>

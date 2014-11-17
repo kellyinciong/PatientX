@@ -10,6 +10,7 @@
 #import "Doctor.h"
 #import "Patient.h"
 #import "Entries.h"
+#import "DataClass.h"
 @interface ThirdViewController ()
 
 @end
@@ -19,10 +20,21 @@
 @synthesize weightField;
 @synthesize bpField;
 @synthesize insulinField;
+@synthesize dateDisplay;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     
+    NSDate *currDateDisplay = [NSDate date];
+    NSDateFormatter *dateFormatterDisplay = [[NSDateFormatter alloc]init];
+    [dateFormatterDisplay setDateFormat:@"MMMM dd, YYYY"];
+    NSString *dateStringDisplay = [dateFormatterDisplay stringFromDate:currDateDisplay];
+    NSLog(@"This will change it: %@",dateStringDisplay);
+    
+    
+    [dateDisplay setText:dateStringDisplay];
+
     
     // Do any additional setup after loading the view.
 
@@ -46,17 +58,27 @@
 - (IBAction)showMessage
 {
     
-    Patient *patient1 = [[Patient alloc]init];
-    patient1.firstName = @"Kevin";
-    patient1.lastName = @"Huynh";
+    
+    DataClass *obj1=[DataClass getInstance];
+    NSLog(@"THIS IS THE PATH!!!!: %@", obj1.pathToData);
+    
+    /////////////////////////////////////////
+    // UPDATE THIS WITH YOUR PATH.
+    //
+    NSString* fileNameExt = [NSString stringWithFormat:@"/Users/Kevin/Desktop/PatientX/%@.txt", obj1.user];
+    //
+    //
+    /////////////////////////////////////////
+    
+    
+
     
     NSDate *currDate = [NSDate date];
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
     [dateFormatter setDateFormat:@"MM/dd/YY hh:mm:ss"];
     NSString *dateString = [dateFormatter stringFromDate:currDate];
-    NSLog(@"%@",dateString);
-    
 
+    
     
     Entries *newEntry = [[Entries alloc]init];
     newEntry.date = dateString;
@@ -65,23 +87,16 @@
     newEntry.insulin = self.insulinField.text;
     
     
-    
-    
-    
-    UIAlertView *helloWorldAlert = [[UIAlertView alloc]
-                                    initWithTitle:@"Display"
-                                    message: [NSString stringWithFormat:@"%@ %@\nEntry Time: %@ \n %@ lbs\n %@ \n %@", patient1.firstName,patient1.lastName, newEntry.date, newEntry.weight,newEntry.bloodPressure, newEntry.insulin]
-                                    delegate:nil cancelButtonTitle:@"OK"
-                                    otherButtonTitles:nil];
+
     
     NSFileManager *filemgr;
     
     filemgr = [NSFileManager defaultManager];
     
-    if ([filemgr fileExistsAtPath: @"/Users/Kevin/Desktop/myfile.txt" ] == YES){
+    if ([filemgr fileExistsAtPath: obj1.pathToData ] == YES){
         NSLog (@"File exists");
       
-        NSURL *URL = [NSURL fileURLWithPath:@"/Users/Kevin/Desktop/myfile.txt"];
+        NSURL *URL = [NSURL fileURLWithPath:obj1.pathToData];
         NSError *error;
         NSString *stringFromFileAtURL = [[NSString alloc]
                                          initWithContentsOfURL:URL
@@ -95,11 +110,19 @@
         }
         else{
             NSLog(@"%@",stringFromFileAtURL);
-            NSFileHandle *fileHandle = [NSFileHandle fileHandleForWritingAtPath:@"/Users/Kevin/Desktop/myfile.txt"];
+            NSFileHandle *fileHandle = [NSFileHandle fileHandleForWritingAtPath:obj1.pathToData];
             // [fileHandle seekToEndOfFile];
             [fileHandle writeData:[[NSString stringWithFormat:@"%@,%@,%@,%@\n%@", newEntry.date, newEntry.weight,newEntry.bloodPressure, newEntry.insulin,stringFromFileAtURL] dataUsingEncoding:NSUTF8StringEncoding]];
             [fileHandle closeFile];
-                [helloWorldAlert show];
+            
+            UIAlertView *helloWorldAlert = [[UIAlertView alloc]
+                                            initWithTitle:@""
+                                            message: [NSString stringWithFormat:@"\nSubmitted!\n"]
+                                            delegate:nil cancelButtonTitle:@"OK"
+                                            otherButtonTitles:nil];
+
+            [helloWorldAlert show];
+        
         }
 
         
