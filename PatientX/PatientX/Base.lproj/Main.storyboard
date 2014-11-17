@@ -1589,6 +1589,7 @@
                                     <rect key="frame" x="210" y="403" width="94" height="30"/>
                                 </variation>
                                 <connections>
+                                    <action selector="doctorButton:" destination="4E1-0s-pgz" eventType="touchUpInside" id="3cq-RP-W5X"/>
                                     <segue destination="XIS-Tp-2gS" kind="show" id="ILn-A8-fvO"/>
                                 </connections>
                             </button>
@@ -1614,6 +1615,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="DoctorLogin" destination="lMk-t3-soP" id="xBu-No-bWh"/>
                         <outlet property="PatientLogin" destination="k2q-uc-nx8" id="ZOO-nq-URq"/>
                         <outlet property="UserField" destination="U3f-l7-lI4" id="Jr1-Ew-kDL"/>
                     </connections>
@@ -1748,7 +1750,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="203" y="112" width="46" height="21"/>
+                                    <rect key="frame" x="203" y="112" width="172" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abD-ev-9zv">
@@ -1757,7 +1759,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="203" y="141" width="67" height="21"/>
+                                    <rect key="frame" x="203" y="141" width="181" height="21"/>
                                 </variation>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0sM-uh-vGC">
@@ -1778,7 +1780,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="38" y="60" width="28" height="21"/>
+                                            <rect key="frame" x="38" y="60" width="354" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Practice Address:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhN-IO-Z2O">
@@ -1796,7 +1798,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="38" y="163" width="64" height="21"/>
+                                            <rect key="frame" x="38" y="163" width="354" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebf-dJ-WWU">
@@ -1814,7 +1816,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="38" y="254" width="62" height="21"/>
+                                            <rect key="frame" x="38" y="254" width="354" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eg-hK-LjW">
@@ -1832,7 +1834,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="38" y="371" width="110" height="21"/>
+                                            <rect key="frame" x="38" y="371" width="354" height="21"/>
                                         </variation>
                                     </label>
                                 </subviews>
@@ -1888,6 +1890,12 @@
                     <tabBarItem key="tabBarItem" title="Profile" id="EGs-wn-GOa"/>
                     <connections>
                         <outlet property="Scroller" destination="0sM-uh-vGC" id="p3c-dq-BfI"/>
+                        <outlet property="email" destination="kO7-nT-xJG" id="JCn-xU-Nxr"/>
+                        <outlet property="location" destination="abD-ev-9zv" id="9Cu-yT-nl5"/>
+                        <outlet property="name" destination="MNN-5U-mru" id="NpW-xg-x2d"/>
+                        <outlet property="phone" destination="fn5-7i-zEe" id="CLG-rc-tYB"/>
+                        <outlet property="practice" destination="WXg-NN-X8I" id="p3m-8g-vCv"/>
+                        <outlet property="practiceAddress" destination="7v1-j9-Vlj" id="ax9-hU-CXn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="58F-Qm-3AY" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -11,5 +11,6 @@
 @interface LoginViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *PatientLogin;
 @property (weak, nonatomic) IBOutlet UITextField *UserField;
+@property (weak, nonatomic) IBOutlet UIButton *DoctorLogin;
 
 @end

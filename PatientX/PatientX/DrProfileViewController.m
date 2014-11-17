@@ -7,18 +7,78 @@
 //
 
 #import "DrProfileViewController.h"
+#import "DataClass.h"
 
 @interface DrProfileViewController ()
 
 @end
 
 @implementation DrProfileViewController
+@synthesize name;
+@synthesize location;
+@synthesize practice;
+@synthesize practiceAddress;
+@synthesize phone;
+@synthesize email;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [Scroller setScrollEnabled:YES];
     [Scroller setContentSize:(CGSizeMake(400, 600))];
+    
+    NSFileManager *filemgr;
+    filemgr = [NSFileManager defaultManager];
+    
+    DataClass *obj1=[DataClass getInstance];
+    
+    /////////////////////////////////////////
+    // UPDATE THIS WITH YOUR PATH.
+    //
+    NSString* fileNameExt = [NSString stringWithFormat:@"/Users/Kevin/Desktop/PatientX/%@.txt", obj1.user];
+    //
+    //
+    /////////////////////////////////////////
+    
+    
+    //THIS IS THE PROFILE STUFF.
+    
+    NSFileManager *filemgr1;
+    filemgr1 = [NSFileManager defaultManager];
+    
+    if ([filemgr1 fileExistsAtPath: fileNameExt ] == YES){
+        NSLog (@"File exists");
+        
+        NSURL *URL = [NSURL fileURLWithPath:fileNameExt];
+        NSError *error;
+        NSString *stringFromFileAtURL = [[NSString alloc]
+                                         initWithContentsOfURL:URL
+                                         encoding:NSUTF8StringEncoding
+                                         error:&error];
+        if (stringFromFileAtURL == nil) {
+            // an error occurred
+            NSLog(@"Error reading file at %@\n%@",
+                  URL, [error localizedFailureReason]);
+            // implementation continues ...
+        }
+        else{
+            
+            NSArray *profileArray =[stringFromFileAtURL componentsSeparatedByString:@"|"];
+            
+            [name setText: profileArray[0]];
+            [location setText: profileArray[1]];
+            [practice setText: profileArray[2]];
+            [practiceAddress setText: profileArray[3]];
+            [phone setText: profileArray[4]];
+            [email setText: profileArray[5]];
+        }
+    }
+    else{
+        NSLog (@"File not found");
+    }
+    //END PROFILE STUFF
+    
+
 }
 
 - (void)didReceiveMemoryWarning {

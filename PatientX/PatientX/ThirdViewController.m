@@ -60,18 +60,6 @@
     
     
     DataClass *obj1=[DataClass getInstance];
-    NSLog(@"THIS IS THE PATH!!!!: %@", obj1.pathToData);
-    
-    /////////////////////////////////////////
-    // UPDATE THIS WITH YOUR PATH.
-    //
-    NSString* fileNameExt = [NSString stringWithFormat:@"/Users/Kevin/Desktop/PatientX/%@.txt", obj1.user];
-    //
-    //
-    /////////////////////////////////////////
-    
-    
-
     
     NSDate *currDate = [NSDate date];
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];

@@ -47,5 +47,16 @@
     obj.user = self.UserField.text;
     
 }
+- (IBAction)doctorButton:(id)sender {
+    
+    
+    
+    DataClass *obj=[DataClass getInstance];
+    obj.user = [NSString stringWithFormat:@"dr%@",self.UserField.text];
+    
+     NSLog(@"Welcome %@", obj.user);
+
+    
+}
 
 @end
