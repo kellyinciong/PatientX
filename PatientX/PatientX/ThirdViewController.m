@@ -119,7 +119,7 @@
         NSLog (@"File not found");
     /*
     NSString *str = [NSString stringWithFormat:@"%@,%@,%@,%@", newEntry.date, newEntry.weight,newEntry.bloodPressure, newEntry.insulin];
-    [str writeToFile:@"/Users/Kevin/Documents/MedAppJam/MedAppJamFinal/textFiles/myfile.txt" atomically:YES encoding:NSUTF8StringEncoding error:nil];
+    [str writeToFile:@"/Users/Home/Documents/MedAppJam/MedAppJamFinal/textFiles/myfile.txt" atomically:YES encoding:NSUTF8StringEncoding error:nil];
     */
     
 

@@ -89,7 +89,7 @@
     /////////////////////////////////////////
     // UPDATE THIS WITH YOUR PATH.
     //
-    NSString* fileNameExt = [NSString stringWithFormat:@"/Users/Kevin/Desktop/PatientX/%@.txt", obj1.user];
+    NSString* fileNameExt = [NSString stringWithFormat:@"/Users/Home/Desktop/PatientX2/%@.txt", obj1.user];
     //
     //
     /////////////////////////////////////////
