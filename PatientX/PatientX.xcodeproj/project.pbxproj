@@ -15,10 +15,8 @@
 		0A1BD9231A193DFB00ECB25A /* DataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BD9221A193DFB00ECB25A /* DataClass.m */; };
 		0A1BDA511A1AD33C00ECB25A /* documetrx logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1BDA501A1AD33C00ECB25A /* documetrx logo.png */; };
 		0A1BDA531A1B269A00ECB25A /* PortraitMockup3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1BDA521A1B269A00ECB25A /* PortraitMockup3.png */; };
-		0A1BDA571A1B291100ECB25A /* KellyProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1BDA561A1B291100ECB25A /* KellyProfile.png */; };
 		0A1BDA591A1B2A7B00ECB25A /* DoctorProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1BDA581A1B2A7B00ECB25A /* DoctorProfile.png */; };
-		0A1BDA5B1A1B2B6800ECB25A /* KevinProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1BDA5A1A1B2B6800ECB25A /* KevinProfile.png */; };
-		0A1BDA5D1A1B2BB300ECB25A /* KevinProfile1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1BDA5C1A1B2BB300ECB25A /* KevinProfile1.png */; };
+		0A1BDA631A1B5EB200ECB25A /* KevinProfile4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1BDA621A1B5EB200ECB25A /* KevinProfile4.png */; };
 		0A322DFC1A17EC4900A4E922 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A322DF81A17EC4900A4E922 /* Doctor.m */; };
 		0A322DFD1A17EC4900A4E922 /* Entries.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A322DFA1A17EC4900A4E922 /* Entries.m */; };
 		0A322E011A180B4100A4E922 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A322E001A180B4100A4E922 /* Patient.m */; };
@@ -69,10 +67,8 @@
 		0A1BD9221A193DFB00ECB25A /* DataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataClass.m; sourceTree = "<group>"; };
 		0A1BDA501A1AD33C00ECB25A /* documetrx logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "documetrx logo.png"; sourceTree = "<group>"; };
 		0A1BDA521A1B269A00ECB25A /* PortraitMockup3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PortraitMockup3.png; sourceTree = "<group>"; };
-		0A1BDA561A1B291100ECB25A /* KellyProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KellyProfile.png; sourceTree = "<group>"; };
 		0A1BDA581A1B2A7B00ECB25A /* DoctorProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoctorProfile.png; sourceTree = "<group>"; };
-		0A1BDA5A1A1B2B6800ECB25A /* KevinProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KevinProfile.png; sourceTree = "<group>"; };
-		0A1BDA5C1A1B2BB300ECB25A /* KevinProfile1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KevinProfile1.png; sourceTree = "<group>"; };
+		0A1BDA621A1B5EB200ECB25A /* KevinProfile4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KevinProfile4.png; sourceTree = "<group>"; };
 		0A322DF71A17EC4900A4E922 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
 		0A322DF81A17EC4900A4E922 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
 		0A322DF91A17EC4900A4E922 /* Entries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entries.h; sourceTree = "<group>"; };
@@ -154,9 +150,7 @@
 		1FF58D901A17175A00FD13AC /* PatientX */ = {
 			isa = PBXGroup;
 			children = (
-				0A1BDA5A1A1B2B6800ECB25A /* KevinProfile.png */,
-				0A1BDA561A1B291100ECB25A /* KellyProfile.png */,
-				0A1BDA5C1A1B2BB300ECB25A /* KevinProfile1.png */,
+				0A1BDA621A1B5EB200ECB25A /* KevinProfile4.png */,
 				0A1BDA521A1B269A00ECB25A /* PortraitMockup3.png */,
 				0A1BD9211A193DFB00ECB25A /* DataClass.h */,
 				0A1BD9221A193DFB00ECB25A /* DataClass.m */,
@@ -320,14 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F49940901A1A1D5400783060 /* 80.png in Resources */,
-				0A1BDA5B1A1B2B6800ECB25A /* KevinProfile.png in Resources */,
 				F499408F1A1A1D5400783060 /* 58.png in Resources */,
-				0A1BDA5D1A1B2BB300ECB25A /* KevinProfile1.png in Resources */,
 				0A1BDA591A1B2A7B00ECB25A /* DoctorProfile.png in Resources */,
 				F49940911A1A1D5400783060 /* 120.png in Resources */,
 				1FF58DA01A17175B00FD13AC /* Main.storyboard in Resources */,
-				0A1BDA571A1B291100ECB25A /* KellyProfile.png in Resources */,
 				0A1BDA511A1AD33C00ECB25A /* documetrx logo.png in Resources */,
+				0A1BDA631A1B5EB200ECB25A /* KevinProfile4.png in Resources */,
 				0A1BDA531A1B269A00ECB25A /* PortraitMockup3.png in Resources */,
 				1FF58DA51A17175B00FD13AC /* LaunchScreen.xib in Resources */,
 				1FF58DA21A17175B00FD13AC /* Images.xcassets in Resources */,
