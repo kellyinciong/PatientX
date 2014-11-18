@@ -381,6 +381,14 @@
                                     <rect key="frame" x="164" y="90" width="209" height="48"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kH-IA-cJS">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="164" y="137" width="40" height="21"/>
+                                </variation>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OtT-ZF-Dg1">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
@@ -408,6 +416,12 @@
                                     <rect key="frame" x="10" y="-355" width="381" height="21"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j6e-Zn-se2">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="5" y="70" width="156" height="128"/>
+                                </variation>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRn-DQ-vsX">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <subviews>
@@ -421,13 +435,13 @@
                                             <rect key="frame" x="24" y="56" width="53" height="22"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teA-bG-STm">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Glucose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teA-bG-STm">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="273" y="56" width="50" height="21"/>
+                                            <rect key="frame" x="259" y="57" width="113" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6f-dL-e1j">
@@ -474,13 +488,13 @@
                                             <rect key="frame" x="121" y="193" width="118" height="21"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JIR-SG-oYf">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Glucose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JIR-SG-oYf">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="273" y="193" width="50" height="21"/>
+                                            <rect key="frame" x="259" y="193" width="113" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IlR-G4-X3I">
@@ -498,7 +512,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="277" y="222" width="46" height="21"/>
+                                            <rect key="frame" x="292" y="222" width="46" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9u-9W-dmS">
@@ -536,13 +550,13 @@
                                             <rect key="frame" x="121" y="316" width="118" height="21"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15Q-BF-gCS">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Glucose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15Q-BF-gCS">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="273" y="316" width="50" height="21"/>
+                                            <rect key="frame" x="259" y="316" width="113" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZh-na-8oR">
@@ -560,7 +574,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="277" y="345" width="46" height="21"/>
+                                            <rect key="frame" x="292" y="345" width="46" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgW-pD-4bg">
@@ -598,13 +612,13 @@
                                             <rect key="frame" x="121" y="433" width="118" height="21"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyM-hJ-mUP">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Glucose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyM-hJ-mUP">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="273" y="433" width="50" height="21"/>
+                                            <rect key="frame" x="259" y="433" width="113" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKJ-ew-hDc">
@@ -622,7 +636,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="277" y="462" width="46" height="21"/>
+                                            <rect key="frame" x="292" y="462" width="46" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Kc-1Z-2MK">
@@ -669,13 +683,13 @@
                                             <rect key="frame" x="121" y="537" width="118" height="21"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2GH-XB-DQp">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Glucose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2GH-XB-DQp">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="273" y="537" width="50" height="21"/>
+                                            <rect key="frame" x="259" y="537" width="113" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h78-Qw-Ccd">
@@ -693,7 +707,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="277" y="566" width="46" height="21"/>
+                                            <rect key="frame" x="292" y="566" width="46" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Xn-Fh-lzC">
@@ -731,13 +745,13 @@
                                             <rect key="frame" x="121" y="641" width="118" height="21"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUx-TH-Yu0">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Glucose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUx-TH-Yu0">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="273" y="641" width="50" height="21"/>
+                                            <rect key="frame" x="259" y="641" width="113" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JpS-sh-HoA">
@@ -755,7 +769,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="277" y="670" width="46" height="21"/>
+                                            <rect key="frame" x="292" y="670" width="46" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9B-W3-pgT">
@@ -793,13 +807,13 @@
                                             <rect key="frame" x="121" y="745" width="118" height="21"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNq-py-7Dc">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Glucose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNq-py-7Dc">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="273" y="745" width="50" height="21"/>
+                                            <rect key="frame" x="259" y="745" width="113" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rn4-xC-rid">
@@ -817,7 +831,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="277" y="774" width="46" height="21"/>
+                                            <rect key="frame" x="292" y="774" width="46" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFF-PX-4up">
@@ -855,13 +869,13 @@
                                             <rect key="frame" x="126" y="849" width="118" height="21"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nf0-Wd-h1Y">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Glucose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nf0-Wd-h1Y">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="278" y="849" width="50" height="21"/>
+                                            <rect key="frame" x="259" y="849" width="113" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OP5-Ck-vXc">
@@ -879,7 +893,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="282" y="878" width="46" height="21"/>
+                                            <rect key="frame" x="292" y="878" width="46" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMO-lg-JX2">
@@ -917,13 +931,13 @@
                                             <rect key="frame" x="121" y="953" width="118" height="21"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGh-3u-z3L">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Glucose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGh-3u-z3L">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="278" y="953" width="50" height="21"/>
+                                            <rect key="frame" x="259" y="953" width="113" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfl-wI-f9o">
@@ -941,7 +955,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="282" y="982" width="46" height="21"/>
+                                            <rect key="frame" x="292" y="982" width="46" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIt-m2-8Nc">
@@ -979,13 +993,13 @@
                                             <rect key="frame" x="121" y="1057" width="118" height="21"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IO-O1-NkB">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Glucose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IO-O1-NkB">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="273" y="1057" width="50" height="21"/>
+                                            <rect key="frame" x="259" y="1057" width="113" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scb-Xe-4Zr">
@@ -995,15 +1009,6 @@
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="29" y="1086" width="48" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAF-qV-s5J">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="277" y="1086" width="46" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkt-H6-lBB">
@@ -1027,7 +1032,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="277" y="84" width="46" height="21"/>
+                                            <rect key="frame" x="292" y="84" width="46" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMc-Uf-hrB">
@@ -1080,7 +1085,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="0.0" y="578" width="381" height="21"/>
+                                            <rect key="frame" x="0.0" y="577" width="381" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="________________________________________" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJy-H4-sWe">
@@ -1117,6 +1122,15 @@
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="-1" y="995" width="401" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAF-qV-s5J">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="292" y="1086" width="46" height="21"/>
                                         </variation>
                                     </label>
                                 </subviews>
@@ -1188,7 +1202,6 @@
                                         <exclude reference="wJ8-bs-yIa"/>
                                         <exclude reference="0IO-O1-NkB"/>
                                         <exclude reference="scb-Xe-4Zr"/>
-                                        <exclude reference="PAF-qV-s5J"/>
                                         <exclude reference="vkt-H6-lBB"/>
                                         <exclude reference="A9k-6i-MCA"/>
                                         <exclude reference="CZr-gi-16l"/>
@@ -1202,10 +1215,11 @@
                                         <exclude reference="EnY-ov-NhJ"/>
                                         <exclude reference="Z6x-S4-Qoz"/>
                                         <exclude reference="XgP-n4-W2Q"/>
+                                        <exclude reference="PAF-qV-s5J"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="201" width="400" height="1124"/>
+                                    <rect key="frame" x="0.0" y="206" width="400" height="1124"/>
                                     <mask key="subviews">
                                         <include reference="ep4-kU-y5t"/>
                                         <include reference="teA-bG-STm"/>
@@ -1273,7 +1287,6 @@
                                         <include reference="wJ8-bs-yIa"/>
                                         <include reference="0IO-O1-NkB"/>
                                         <include reference="scb-Xe-4Zr"/>
-                                        <include reference="PAF-qV-s5J"/>
                                         <include reference="vkt-H6-lBB"/>
                                         <include reference="A9k-6i-MCA"/>
                                         <include reference="CZr-gi-16l"/>
@@ -1287,23 +1300,10 @@
                                         <include reference="EnY-ov-NhJ"/>
                                         <include reference="Z6x-S4-Qoz"/>
                                         <include reference="XgP-n4-W2Q"/>
+                                        <include reference="PAF-qV-s5J"/>
                                     </mask>
                                 </variation>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j6e-Zn-se2">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="5" y="70" width="156" height="128"/>
-                                </variation>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kH-IA-cJS">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="164" y="137" width="40" height="21"/>
-                                </variation>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -1315,12 +1315,12 @@
                                 <exclude reference="gka-g6-xOY"/>
                                 <exclude reference="hqK-Mp-VKg"/>
                                 <exclude reference="ybQ-wl-K6M"/>
+                                <exclude reference="1kH-IA-cJS"/>
                                 <exclude reference="OtT-ZF-Dg1"/>
                                 <exclude reference="GnT-ta-SMV"/>
                                 <exclude reference="PTK-xo-yAi"/>
-                                <exclude reference="uRn-DQ-vsX"/>
                                 <exclude reference="j6e-Zn-se2"/>
-                                <exclude reference="1kH-IA-cJS"/>
+                                <exclude reference="uRn-DQ-vsX"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -1332,16 +1332,16 @@
                                 <include reference="gka-g6-xOY"/>
                                 <include reference="hqK-Mp-VKg"/>
                                 <include reference="ybQ-wl-K6M"/>
+                                <include reference="1kH-IA-cJS"/>
                                 <include reference="OtT-ZF-Dg1"/>
                                 <include reference="GnT-ta-SMV"/>
                                 <include reference="PTK-xo-yAi"/>
-                                <include reference="uRn-DQ-vsX"/>
                                 <include reference="j6e-Zn-se2"/>
-                                <include reference="1kH-IA-cJS"/>
+                                <include reference="uRn-DQ-vsX"/>
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="circle-user-7" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="Scroller" destination="uRn-DQ-vsX" id="4nT-pX-L9e"/>
                         <outlet property="age" destination="hqK-Mp-VKg" id="kOa-ug-luR"/>
@@ -1509,7 +1509,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Add New" id="V1k-mb-5Cz"/>
+                    <tabBarItem key="tabBarItem" title="Add New" image="write-simple-7" id="V1k-mb-5Cz"/>
                     <connections>
                         <outlet property="bpField" destination="T1y-VO-RvC" id="qws-tg-JF8"/>
                         <outlet property="dateDisplay" destination="F0z-id-Xqf" id="QYs-Yh-etj"/>
@@ -1609,7 +1609,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Messages" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Messages" image="email-7" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -1857,7 +1857,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Patients" id="xpS-uj-wFU"/>
+                    <tabBarItem key="tabBarItem" title="Patients" image="woman-man-7" id="xpS-uj-wFU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xSp-xd-MQL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1972,7 +1972,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="38" y="333" width="47" height="21"/>
+                                            <rect key="frame" x="38" y="310" width="47" height="21"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kO7-nT-xJG">
@@ -1981,7 +1981,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="38" y="371" width="354" height="21"/>
+                                            <rect key="frame" x="38" y="348" width="354" height="21"/>
                                         </variation>
                                     </label>
                                 </subviews>
@@ -2040,7 +2040,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="EGs-wn-GOa"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="circle-user-7" id="EGs-wn-GOa"/>
                     <connections>
                         <outlet property="Scroller" destination="0sM-uh-vGC" id="p3c-dq-BfI"/>
                         <outlet property="email" destination="kO7-nT-xJG" id="JCn-xU-Nxr"/>
@@ -2150,7 +2150,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Messages" id="Zju-48-yHA"/>
+                    <tabBarItem key="tabBarItem" title="Messages" image="email-7" id="Zju-48-yHA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8a-Qb-gd7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2168,14 +2168,152 @@
                         <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6WY-dT-os8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="barTintColor" red="0.78797970539999995" green="0.90170503160000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Graphs" id="OcY-6d-bbY"/>
+                                </items>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="7" width="374" height="44"/>
+                                </variation>
+                            </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wdq-8j-fbB">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="plq-H9-XSW" customClass="TEABarChart">
                                         <rect key="frame" x="35" y="46" width="250" height="100"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="flF-qM-eG6">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="27" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="YIF-HN-cPk">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="61" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="lbd-YG-T0v">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="93" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="ufk-Nl-sHp">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="127" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="SP1-yl-Tge">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="161" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="ADr-da-uSy">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="193" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="IjG-Lq-5fV">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="227" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="2ii-w5-eb5">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="260" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="Fk5-xs-gDy">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="293" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="phd-gP-dnp">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="-5" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="flF-qM-eG6"/>
+                                                <exclude reference="YIF-HN-cPk"/>
+                                                <exclude reference="lbd-YG-T0v"/>
+                                                <exclude reference="ufk-Nl-sHp"/>
+                                                <exclude reference="SP1-yl-Tge"/>
+                                                <exclude reference="ADr-da-uSy"/>
+                                                <exclude reference="IjG-Lq-5fV"/>
+                                                <exclude reference="2ii-w5-eb5"/>
+                                                <exclude reference="Fk5-xs-gDy"/>
+                                                <exclude reference="phd-gP-dnp"/>
+                                            </mask>
+                                        </variation>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="39" y="39" width="323" height="131"/>
+                                            <mask key="subviews">
+                                                <include reference="flF-qM-eG6"/>
+                                                <include reference="YIF-HN-cPk"/>
+                                                <include reference="lbd-YG-T0v"/>
+                                                <include reference="ufk-Nl-sHp"/>
+                                                <include reference="SP1-yl-Tge"/>
+                                                <include reference="ADr-da-uSy"/>
+                                                <include reference="IjG-Lq-5fV"/>
+                                                <include reference="2ii-w5-eb5"/>
+                                                <include reference="Fk5-xs-gDy"/>
+                                                <include reference="phd-gP-dnp"/>
+                                            </mask>
                                         </variation>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ezb-IG-mHF" customClass="TEABarChart">
@@ -2201,16 +2339,137 @@
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qDj-am-uGS" customClass="TEABarChart">
                                         <rect key="frame" x="35" y="46" width="250" height="100"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="GFk-Zb-FU9">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="-5" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="tOr-s9-tZy">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="60" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="2DA-Tw-fJI">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="93" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="Jgl-kf-a3g">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="127" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="Gs4-Rz-GRD">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="161" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="QL2-h4-J9j">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="194" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="E0u-R8-plM">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="228" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="h8h-gM-Hqr">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="261" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="bfr-Lm-NIV">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="294" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="BG5-r0-QjU">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="28" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="GFk-Zb-FU9"/>
+                                                <exclude reference="tOr-s9-tZy"/>
+                                                <exclude reference="2DA-Tw-fJI"/>
+                                                <exclude reference="Jgl-kf-a3g"/>
+                                                <exclude reference="Gs4-Rz-GRD"/>
+                                                <exclude reference="QL2-h4-J9j"/>
+                                                <exclude reference="E0u-R8-plM"/>
+                                                <exclude reference="h8h-gM-Hqr"/>
+                                                <exclude reference="bfr-Lm-NIV"/>
+                                                <exclude reference="BG5-r0-QjU"/>
+                                            </mask>
+                                        </variation>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="39" y="210" width="323" height="131"/>
-                                        </variation>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xK9-nH-vWB" customClass="TEABarChart">
-                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="39" y="382" width="323" height="131"/>
+                                            <mask key="subviews">
+                                                <include reference="GFk-Zb-FU9"/>
+                                                <include reference="tOr-s9-tZy"/>
+                                                <include reference="2DA-Tw-fJI"/>
+                                                <include reference="Jgl-kf-a3g"/>
+                                                <include reference="Gs4-Rz-GRD"/>
+                                                <include reference="QL2-h4-J9j"/>
+                                                <include reference="E0u-R8-plM"/>
+                                                <include reference="h8h-gM-Hqr"/>
+                                                <include reference="bfr-Lm-NIV"/>
+                                                <include reference="BG5-r0-QjU"/>
+                                            </mask>
                                         </variation>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Glucose:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qa4-rg-TQn">
@@ -2242,9 +2501,137 @@
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gm9-ff-sCF" customClass="TEABarChart">
                                         <rect key="frame" x="35" y="46" width="250" height="100"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="fnR-US-xxl">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="-1" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="QKu-f2-w0x">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="32" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="q45-2i-Tke">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="66" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="Bu2-8k-MK4">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="98" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="7C3-OF-NsF">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="133" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="qOY-xM-BRG">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="166" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="gRb-tR-s6u">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="199" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="tOd-hN-imp">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="233" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="VCk-yJ-eUs">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="266" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="Za0-3E-75Y">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="298" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="fnR-US-xxl"/>
+                                                <exclude reference="QKu-f2-w0x"/>
+                                                <exclude reference="q45-2i-Tke"/>
+                                                <exclude reference="Bu2-8k-MK4"/>
+                                                <exclude reference="7C3-OF-NsF"/>
+                                                <exclude reference="qOY-xM-BRG"/>
+                                                <exclude reference="gRb-tR-s6u"/>
+                                                <exclude reference="tOd-hN-imp"/>
+                                                <exclude reference="VCk-yJ-eUs"/>
+                                                <exclude reference="Za0-3E-75Y"/>
+                                            </mask>
+                                        </variation>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="39" y="558" width="323" height="131"/>
+                                            <mask key="subviews">
+                                                <include reference="fnR-US-xxl"/>
+                                                <include reference="QKu-f2-w0x"/>
+                                                <include reference="q45-2i-Tke"/>
+                                                <include reference="Bu2-8k-MK4"/>
+                                                <include reference="7C3-OF-NsF"/>
+                                                <include reference="qOY-xM-BRG"/>
+                                                <include reference="gRb-tR-s6u"/>
+                                                <include reference="tOd-hN-imp"/>
+                                                <include reference="VCk-yJ-eUs"/>
+                                                <include reference="Za0-3E-75Y"/>
+                                            </mask>
                                         </variation>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nub-uZ-Tvx">
@@ -2256,6 +2643,141 @@
                                             <rect key="frame" x="8" y="10" width="58" height="21"/>
                                         </variation>
                                     </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xK9-nH-vWB" customClass="TEABarChart">
+                                        <rect key="frame" x="35" y="46" width="250" height="100"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="1lC-pc-Bqj">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="-6" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="gRH-dQ-TeY">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="27" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="3ht-uP-qq2">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="60" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="Y8d-hV-Vc5">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="94" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="POf-yh-Odc">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="127" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="DVk-RB-DIA">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="161" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="CrM-QP-5Vj">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="194" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="nge-lQ-e4o">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="228" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="Jf0-I7-zos">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="261" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                            <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="bottomLeft" text="120" translatesAutoresizingMaskIntoConstraints="NO" id="MDV-uv-iNM">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="295" y="106" width="35" height="25"/>
+                                                </variation>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="1lC-pc-Bqj"/>
+                                                <exclude reference="gRH-dQ-TeY"/>
+                                                <exclude reference="3ht-uP-qq2"/>
+                                                <exclude reference="Y8d-hV-Vc5"/>
+                                                <exclude reference="POf-yh-Odc"/>
+                                                <exclude reference="DVk-RB-DIA"/>
+                                                <exclude reference="CrM-QP-5Vj"/>
+                                                <exclude reference="nge-lQ-e4o"/>
+                                                <exclude reference="Jf0-I7-zos"/>
+                                                <exclude reference="MDV-uv-iNM"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="39" y="382" width="323" height="131"/>
+                                            <mask key="subviews">
+                                                <include reference="1lC-pc-Bqj"/>
+                                                <include reference="gRH-dQ-TeY"/>
+                                                <include reference="3ht-uP-qq2"/>
+                                                <include reference="Y8d-hV-Vc5"/>
+                                                <include reference="POf-yh-Odc"/>
+                                                <include reference="DVk-RB-DIA"/>
+                                                <include reference="CrM-QP-5Vj"/>
+                                                <include reference="nge-lQ-e4o"/>
+                                                <include reference="Jf0-I7-zos"/>
+                                                <include reference="MDV-uv-iNM"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
                                 </subviews>
                                 <variation key="default">
                                     <mask key="subviews">
@@ -2264,12 +2786,12 @@
                                         <exclude reference="iGU-Qg-THq"/>
                                         <exclude reference="tjs-ID-xqT"/>
                                         <exclude reference="qDj-am-uGS"/>
-                                        <exclude reference="xK9-nH-vWB"/>
                                         <exclude reference="Qa4-rg-TQn"/>
                                         <exclude reference="X0P-8u-EBt"/>
                                         <exclude reference="lox-uk-c0B"/>
                                         <exclude reference="gm9-ff-sCF"/>
                                         <exclude reference="Nub-uZ-Tvx"/>
+                                        <exclude reference="xK9-nH-vWB"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -2280,41 +2802,31 @@
                                         <include reference="iGU-Qg-THq"/>
                                         <include reference="tjs-ID-xqT"/>
                                         <include reference="qDj-am-uGS"/>
-                                        <include reference="xK9-nH-vWB"/>
                                         <include reference="Qa4-rg-TQn"/>
                                         <include reference="X0P-8u-EBt"/>
                                         <include reference="lox-uk-c0B"/>
                                         <include reference="gm9-ff-sCF"/>
                                         <include reference="Nub-uZ-Tvx"/>
+                                        <include reference="xK9-nH-vWB"/>
                                     </mask>
                                 </variation>
                             </scrollView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6WY-dT-os8">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <color key="barTintColor" red="0.78797970539999995" green="0.90170503160000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <items>
-                                    <navigationItem title="Graphs" id="OcY-6d-bbY"/>
-                                </items>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="7" width="374" height="44"/>
-                                </variation>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="wdq-8j-fbB"/>
                                 <exclude reference="6WY-dT-os8"/>
+                                <exclude reference="wdq-8j-fbB"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="wdq-8j-fbB"/>
                                 <include reference="6WY-dT-os8"/>
+                                <include reference="wdq-8j-fbB"/>
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Graphs" id="qEp-Z7-MTK"/>
+                    <tabBarItem key="tabBarItem" title="Graphs" image="connectivity-bar-7" id="qEp-Z7-MTK"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="400" height="800"/>
                     <connections>
@@ -2323,6 +2835,46 @@
                         <outlet property="barChart2" destination="xK9-nH-vWB" id="cGn-A0-oWa"/>
                         <outlet property="barChart3" destination="qDj-am-uGS" id="qQD-KO-vEk"/>
                         <outlet property="barChart4" destination="gm9-ff-sCF" id="QEx-9H-xOm"/>
+                        <outlet property="bp1" destination="1lC-pc-Bqj" id="twp-mR-P5K"/>
+                        <outlet property="bp10" destination="MDV-uv-iNM" id="keS-Wk-hFr"/>
+                        <outlet property="bp2" destination="gRH-dQ-TeY" id="vku-NC-Omb"/>
+                        <outlet property="bp3" destination="3ht-uP-qq2" id="55d-kF-5LD"/>
+                        <outlet property="bp4" destination="Y8d-hV-Vc5" id="rJ8-GM-kQJ"/>
+                        <outlet property="bp5" destination="POf-yh-Odc" id="Dye-1o-uwu"/>
+                        <outlet property="bp6" destination="DVk-RB-DIA" id="cJA-Yh-OjD"/>
+                        <outlet property="bp7" destination="CrM-QP-5Vj" id="usS-a6-3ul"/>
+                        <outlet property="bp8" destination="nge-lQ-e4o" id="lig-34-NIh"/>
+                        <outlet property="bp9" destination="Jf0-I7-zos" id="FPQ-om-6cg"/>
+                        <outlet property="bpLow1" destination="fnR-US-xxl" id="GVc-Hc-jo1"/>
+                        <outlet property="bpLow10" destination="Za0-3E-75Y" id="H0u-z9-I5G"/>
+                        <outlet property="bpLow2" destination="QKu-f2-w0x" id="eac-8F-8FR"/>
+                        <outlet property="bpLow3" destination="q45-2i-Tke" id="NfI-DH-ddR"/>
+                        <outlet property="bpLow4" destination="Bu2-8k-MK4" id="riE-xb-fJC"/>
+                        <outlet property="bpLow5" destination="7C3-OF-NsF" id="5pF-ai-jdm"/>
+                        <outlet property="bpLow6" destination="qOY-xM-BRG" id="rFq-GO-xhC"/>
+                        <outlet property="bpLow7" destination="gRb-tR-s6u" id="KzW-v7-xRK"/>
+                        <outlet property="bpLow8" destination="tOd-hN-imp" id="RfH-fO-hCA"/>
+                        <outlet property="bpLow9" destination="VCk-yJ-eUs" id="lWk-gy-7Yv"/>
+                        <outlet property="insulin1" destination="GFk-Zb-FU9" id="Nvm-FB-o5e"/>
+                        <outlet property="insulin10" destination="bfr-Lm-NIV" id="e1I-pL-9Ip"/>
+                        <outlet property="insulin2" destination="BG5-r0-QjU" id="YU2-4S-KDp"/>
+                        <outlet property="insulin3" destination="tOr-s9-tZy" id="eu8-Qw-nR8"/>
+                        <outlet property="insulin4" destination="2DA-Tw-fJI" id="3JR-EL-1yC"/>
+                        <outlet property="insulin5" destination="Jgl-kf-a3g" id="hom-cy-kWl"/>
+                        <outlet property="insulin6" destination="Gs4-Rz-GRD" id="von-h5-PnZ"/>
+                        <outlet property="insulin7" destination="QL2-h4-J9j" id="xzj-M5-hHv"/>
+                        <outlet property="insulin8" destination="E0u-R8-plM" id="AKq-Vi-aFc"/>
+                        <outlet property="insulin9" destination="h8h-gM-Hqr" id="7rU-oJ-h8m"/>
+                        <outlet property="weight1" destination="phd-gP-dnp" id="8gj-kf-sFG"/>
+                        <outlet property="weight10" destination="Fk5-xs-gDy" id="fn3-pS-fQs"/>
+                        <outlet property="weight2" destination="flF-qM-eG6" id="6MV-q7-Pi4"/>
+                        <outlet property="weight3" destination="YIF-HN-cPk" id="zqG-vk-r7i"/>
+                        <outlet property="weight4" destination="lbd-YG-T0v" id="8Fe-bq-vXi"/>
+                        <outlet property="weight5" destination="ufk-Nl-sHp" id="FAC-Z7-rJb"/>
+                        <outlet property="weight6" destination="SP1-yl-Tge" id="aAD-53-bsl"/>
+                        <outlet property="weight7" destination="ADr-da-uSy" id="cIs-gP-zsj"/>
+                        <outlet property="weight8" destination="IjG-Lq-5fV" id="KUm-J6-67I"/>
+                        <outlet property="weight9" destination="2ii-w5-eb5" id="X6Q-ta-Inz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1d-JS-QS5" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2331,8 +2883,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="circle-user-7" width="30" height="30"/>
+        <image name="connectivity-bar-7" width="30" height="30"/>
         <image name="documetrx logo.png" width="1204" height="386"/>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="email-7" width="30" height="30"/>
+        <image name="woman-man-7" width="29" height="30"/>
+        <image name="write-simple-7" width="29" height="30"/>
     </resources>
 </document>

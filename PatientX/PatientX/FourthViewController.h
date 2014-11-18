@@ -15,55 +15,55 @@
     
     
 }
-@property (weak, nonatomic) IBOutlet UILabel *weight1;
-@property (weak, nonatomic) IBOutlet UILabel *date1;
-@property (weak, nonatomic) IBOutlet UILabel *bp1;
-@property (weak, nonatomic) IBOutlet UILabel *insulin1;
+@property (weak, nonatomic) IBOutlet UITextView *weight1;
+@property (weak, nonatomic) IBOutlet UITextView *bpLow1;
+@property (weak, nonatomic) IBOutlet UITextView *bp1;
+@property (weak, nonatomic) IBOutlet UITextView *insulin1;
 
-@property (weak, nonatomic) IBOutlet UILabel *weight2;
-@property (weak, nonatomic) IBOutlet UILabel *date2;
-@property (weak, nonatomic) IBOutlet UILabel *bp2;
-@property (weak, nonatomic) IBOutlet UILabel *insulin2;
+@property (weak, nonatomic) IBOutlet UITextView *weight2;
+@property (weak, nonatomic) IBOutlet UITextView *bpLow2;
+@property (weak, nonatomic) IBOutlet UITextView *bp2;
+@property (weak, nonatomic) IBOutlet UITextView *insulin2;
 
-@property (weak, nonatomic) IBOutlet UILabel *weight3;
-@property (weak, nonatomic) IBOutlet UILabel *date3;
-@property (weak, nonatomic) IBOutlet UILabel *bp3;
-@property (weak, nonatomic) IBOutlet UILabel *insulin3;
+@property (weak, nonatomic) IBOutlet UITextView *weight3;
+@property (weak, nonatomic) IBOutlet UITextView *bpLow3;
+@property (weak, nonatomic) IBOutlet UITextView *bp3;
+@property (weak, nonatomic) IBOutlet UITextView *insulin3;
 
-@property (weak, nonatomic) IBOutlet UILabel *weight4;
-@property (weak, nonatomic) IBOutlet UILabel *date4;
-@property (weak, nonatomic) IBOutlet UILabel *bp4;
-@property (weak, nonatomic) IBOutlet UILabel *insulin4;
+@property (weak, nonatomic) IBOutlet UITextView *weight4;
+@property (weak, nonatomic) IBOutlet UITextView *bpLow4;
+@property (weak, nonatomic) IBOutlet UITextView *bp4;
+@property (weak, nonatomic) IBOutlet UITextView *insulin4;
 
-@property (weak, nonatomic) IBOutlet UILabel *weight5;
-@property (weak, nonatomic) IBOutlet UILabel *date5;
-@property (weak, nonatomic) IBOutlet UILabel *bp5;
-@property (weak, nonatomic) IBOutlet UILabel *insulin5;
+@property (weak, nonatomic) IBOutlet UITextView *weight5;
+@property (weak, nonatomic) IBOutlet UITextView *bpLow5;
+@property (weak, nonatomic) IBOutlet UITextView *bp5;
+@property (weak, nonatomic) IBOutlet UITextView *insulin5;
 
-@property (weak, nonatomic) IBOutlet UILabel *weight6;
-@property (weak, nonatomic) IBOutlet UILabel *date6;
-@property (weak, nonatomic) IBOutlet UILabel *bp6;
-@property (weak, nonatomic) IBOutlet UILabel *insulin6;
+@property (weak, nonatomic) IBOutlet UITextView *weight6;
+@property (weak, nonatomic) IBOutlet UITextView *bpLow6;
+@property (weak, nonatomic) IBOutlet UITextView *bp6;
+@property (weak, nonatomic) IBOutlet UITextView *insulin6;
 
-@property (weak, nonatomic) IBOutlet UILabel *weight7;
-@property (weak, nonatomic) IBOutlet UILabel *date7;
-@property (weak, nonatomic) IBOutlet UILabel *bp7;
-@property (weak, nonatomic) IBOutlet UILabel *insulin7;
+@property (weak, nonatomic) IBOutlet UITextView *weight7;
+@property (weak, nonatomic) IBOutlet UITextView *bpLow7;
+@property (weak, nonatomic) IBOutlet UITextView *bp7;
+@property (weak, nonatomic) IBOutlet UITextView *insulin7;
 
-@property (weak, nonatomic) IBOutlet UILabel *weight8;
-@property (weak, nonatomic) IBOutlet UILabel *date8;
-@property (weak, nonatomic) IBOutlet UILabel *bp8;
-@property (weak, nonatomic) IBOutlet UILabel *insulin8;
+@property (weak, nonatomic) IBOutlet UITextView *weight8;
+@property (weak, nonatomic) IBOutlet UITextView *bpLow8;
+@property (weak, nonatomic) IBOutlet UITextView *bp8;
+@property (weak, nonatomic) IBOutlet UITextView *insulin8;
 
-@property (weak, nonatomic) IBOutlet UILabel *weight9;
-@property (weak, nonatomic) IBOutlet UILabel *date9;
-@property (weak, nonatomic) IBOutlet UILabel *bp9;
-@property (weak, nonatomic) IBOutlet UILabel *insulin9;
+@property (weak, nonatomic) IBOutlet UITextView *weight9;
+@property (weak, nonatomic) IBOutlet UITextView *bpLow9;
+@property (weak, nonatomic) IBOutlet UITextView *bp9;
+@property (weak, nonatomic) IBOutlet UITextView *insulin9;
 
-@property (weak, nonatomic) IBOutlet UILabel *weight10;
-@property (weak, nonatomic) IBOutlet UILabel *date10;
-@property (weak, nonatomic) IBOutlet UILabel *bp10;
-@property (weak, nonatomic) IBOutlet UILabel *insulin10;
+@property (weak, nonatomic) IBOutlet UITextView *weight10;
+@property (weak, nonatomic) IBOutlet UITextView *bpLow10;
+@property (weak, nonatomic) IBOutlet UITextView *bp10;
+@property (weak, nonatomic) IBOutlet UITextView *insulin10;
 
 
 

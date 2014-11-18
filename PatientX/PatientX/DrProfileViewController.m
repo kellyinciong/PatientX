@@ -75,10 +75,12 @@
             [phone setText: profileArray[4]];
             [email setText: profileArray[5]];
             
+            
             DataClass *obj=[DataClass getInstance];
 
             obj.patientArray= [profileArray[7] componentsSeparatedByString:@"~"];
             obj.patientDataArray = [profileArray[8] componentsSeparatedByString:@"~"];
+            obj.messageArray = [profileArray[9] componentsSeparatedByString:@"~"];
             
             NSBundle *imageBundle = [NSBundle mainBundle];// [NSBundle mainBundle] if your image is inside main bundle
             NSString *imagePath = [imageBundle pathForResource:profileArray[6] ofType:@"png"];
