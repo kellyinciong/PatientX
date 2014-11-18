@@ -12,6 +12,9 @@
 
 @synthesize str;
 @synthesize dataArray;
+@synthesize messageArray;
+@synthesize patientArray;
+@synthesize patientDataArray;
 
 static DataClass *instance = nil;
 

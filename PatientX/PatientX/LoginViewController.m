@@ -54,7 +54,7 @@
     DataClass *obj=[DataClass getInstance];
     obj.user = [NSString stringWithFormat:@"dr%@",self.UserField.text];
     
-     NSLog(@"Welcome %@", obj.user);
+    NSLog(@"Welcome %@", obj.user);
 
     
 }

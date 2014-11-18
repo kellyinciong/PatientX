@@ -16,8 +16,8 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled-2" translatesAutoresizingMaskIntoConstraints="NO" id="vwP-Ol-e8b">
-                    <rect key="frame" x="89" y="152" width="302" height="176"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="documetrx logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="SIL-Vz-r96">
+                    <rect key="frame" x="8" y="70" width="367" height="126"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -32,6 +32,6 @@
         </view>
     </objects>
     <resources>
-        <image name="Untitled-2" width="300" height="200"/>
+        <image name="documetrx logo.png" width="1204" height="386"/>
     </resources>
 </document>

@@ -14,12 +14,16 @@
     NSMutableArray *dataArray;
     NSString *user;
     NSString *pathToData;
+    NSArray *messageArray;
 }
 
 @property(nonatomic,retain)NSString *str;
 @property(nonatomic,retain)NSMutableArray *dataArray;
 @property(nonatomic,retain)NSString *user;
 @property(nonatomic,retain)NSString *pathToData;
+@property(nonatomic,retain)NSArray *messageArray;
+@property(nonatomic,retain)NSArray *patientArray;
+@property(nonatomic,retain)NSArray *patientDataArray;
 
 
 +(DataClass*)getInstance;

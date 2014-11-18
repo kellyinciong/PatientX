@@ -6,6 +6,10 @@
 //  Copyright (c) 2014 Team4. All rights reserved.
 //
 
+//systolic = high
+//diastolic = low
+// 
+
 #import "FirstViewController.h"
 #import "Entries.h"
 #import "Patient.h"
@@ -21,6 +25,8 @@
 @synthesize name;
 @synthesize age;
 @synthesize location;
+
+@synthesize profilePicture;
 
 //@synthesize textView1;
 @synthesize weight1;
@@ -89,7 +95,7 @@
     /////////////////////////////////////////
     // UPDATE THIS WITH YOUR PATH.
     //
-    NSString* fileNameExt = [NSString stringWithFormat:@"/Users/Home/Desktop/PatientX2/%@.txt", obj1.user];
+    NSString* fileNameExt = [NSString stringWithFormat:@"/Users/Kevin/Desktop/PatientXText/%@.txt", obj1.user];
     //
     //
     /////////////////////////////////////////
@@ -123,7 +129,10 @@
             [age setText:profileArray[1]];
             [location setText:profileArray[2]];
             
-            
+            NSBundle *imageBundle = [NSBundle mainBundle];// [NSBundle mainBundle] if your image is inside main bundle
+            NSString *imagePath = [imageBundle pathForResource:profileArray[4] ofType:@"png"];
+            UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+           [profilePicture setImage:image];
             
             //START DATA READ
             
@@ -223,6 +232,7 @@
                     DataClass *obj=[DataClass getInstance];
                     obj.dataArray = dataArray;
                     obj.pathToData = profileArray[3];
+                    obj.messageArray = [profileArray[5] componentsSeparatedByString:@"~"];
                     
                     
                 }

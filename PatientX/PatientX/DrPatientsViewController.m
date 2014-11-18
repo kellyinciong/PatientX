@@ -7,6 +7,7 @@
 //
 
 #import "DrPatientsViewController.h"
+#import "DataClass.h"
 
 @interface DrPatientsViewController ()
 
@@ -16,8 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
+    DataClass *obj=[DataClass getInstance];
+
     // Do any additional setup after loading the view, typically from a nib.
-    self.patients = @[@"Patient 1", @"Patient 2", @"Patient 3", @"Patient 4", @"Patient 5"];
+    self.patients = obj.patientArray;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,5 +50,43 @@
     
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+
+
+{
+    
+    
+    DataClass *obj=[DataClass getInstance];
+    NSURL *URL = [NSURL fileURLWithPath:obj.patientDataArray[indexPath.row]];
+    NSError *error;
+    NSString *stringFromFileAtURL = [[NSString alloc]
+                                     initWithContentsOfURL:URL
+                                     encoding:NSUTF8StringEncoding
+                                     error:&error];
+    if (stringFromFileAtURL == nil) {
+        // an error occurred
+        NSLog(@"Error reading file at %@\n%@",
+              URL, [error localizedFailureReason]);
+        // implementation continues ...
+    }
+    else{
+        NSArray *initialSplitArray =[stringFromFileAtURL componentsSeparatedByString:@"\n"];
+        
+        NSArray *profileArray =[initialSplitArray[0] componentsSeparatedByString:@","];
+        UIAlertView *messageAlert = [[UIAlertView alloc]
+                                     initWithTitle:obj.patientArray[indexPath.row]message: [NSString stringWithFormat:@"\nDate: %@\nWeight: %@\nSystolic Blood Pressure: %@\n Diastolic Blood Pressure: %@", profileArray[0],profileArray[1],profileArray[2],profileArray[3]]delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        
+        // Display Alert Message
+        [messageAlert show];
+
+        
+        
+    }
+    
+    NSLog(@"%ld",indexPath.row);
+    
+}
+
 
 @end

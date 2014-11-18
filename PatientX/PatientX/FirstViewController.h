@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *name;
 @property (weak, nonatomic) IBOutlet UILabel *age;
 @property (weak, nonatomic) IBOutlet UILabel *location;
+@property (weak, nonatomic) IBOutlet UIImageView *profilePicture;
 
 @property (weak, nonatomic) IBOutlet UILabel *weight1;
 @property (weak, nonatomic) IBOutlet UILabel *date1;

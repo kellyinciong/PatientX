@@ -20,6 +20,7 @@
 @synthesize practiceAddress;
 @synthesize phone;
 @synthesize email;
+@synthesize profilePicture;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -35,7 +36,7 @@
     /////////////////////////////////////////
     // UPDATE THIS WITH YOUR PATH.
     //
-    NSString* fileNameExt = [NSString stringWithFormat:@"/Users/Home/Desktop/PatientX2/%@.txt", obj1.user];
+    NSString* fileNameExt = [NSString stringWithFormat:@"/Users/Kevin/Desktop/PatientXText/%@.txt", obj1.user];
     //
     //
     /////////////////////////////////////////
@@ -63,6 +64,8 @@
         }
         else{
             
+            
+            
             NSArray *profileArray =[stringFromFileAtURL componentsSeparatedByString:@"|"];
             
             [name setText: profileArray[0]];
@@ -71,6 +74,17 @@
             [practiceAddress setText: profileArray[3]];
             [phone setText: profileArray[4]];
             [email setText: profileArray[5]];
+            
+            DataClass *obj=[DataClass getInstance];
+
+            obj.patientArray= [profileArray[7] componentsSeparatedByString:@"~"];
+            obj.patientDataArray = [profileArray[8] componentsSeparatedByString:@"~"];
+            
+            NSBundle *imageBundle = [NSBundle mainBundle];// [NSBundle mainBundle] if your image is inside main bundle
+            NSString *imagePath = [imageBundle pathForResource:profileArray[6] ofType:@"png"];
+            UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+            [profilePicture setImage:image];
+
         }
     }
     else{
