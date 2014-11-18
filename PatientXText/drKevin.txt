@@ -1,1 +1,1 @@
-Kevin Huynh|San Jose, CA|Kaiser Permanente|6640 Alton Pkwy Irvine,CA|(408) 858-5111|kevinhh@uci.edu
+Kevin Huynh|San Jose, CA|Kaiser Permanente|6640 Alton Pkwy Irvine,CA|(408) 858-5111|kevinhh@uci.edu|DoctorProfile|Kelly Inciong~Kevin Huynh|/Users/Kevin/Desktop/PatientXText/KellyData.txt~/Users/Kevin/Desktop/PatientXText/KevinData.txt|Hi Doc, I feel sick -Kevin~Hey Doctor, could we set up an appointment? -Kelly~Hey Doc, could we reschedule our appointment? -Kevin

@@ -1,1 +1,1 @@
-Kelly Inciong|21|Irvine, CA|/Users/Kevin/Desktop/PatientX/KellyData.txt
+Kelly Inciong|21|Irvine, CA|/Users/Kevin/Desktop/PatientXText/KellyData.txt|KellyProfile|Hey Kelly. Give me a call -Doc~Hi Kelly. You are late to your appointment -Doc~Kelly, Remember to enter in your stats everyday. -Doc~Kelly, Keep up the good work!

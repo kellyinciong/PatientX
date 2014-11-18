@@ -1,1 +1,1 @@
-Kevin Huynh|22|San Jose, CA|/Users/Kevin/Desktop/PatientX/KevinData.txt
+Kevin Huynh|22|San Jose, CA|/Users/Kevin/Desktop/PatientXText/KevinData.txt|KevinProfile4|Hey Kevin.  Remember to take your meds. -Doc~Hi Kevin. Remember to sign up for an appointment -Doc~Kevin, Remember to enter in your stats everyday. -Doc
